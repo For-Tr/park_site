@@ -1,0 +1,35 @@
+name: f228
+services:
+  web:
+    image: webslim0405:latest  # 使用已构建的镜像
+    container_name: f228
+    ports:
+      - "5000:5000"  # Django 端口
+      - "1883:1883"  # MQTT 端口
+    volumes:
+      - ./backend_try:/www/backend_try  # Django 应用核心
+      - ./app:/www/app  # 应用代码
+      - ./static:/www/static  # 静态文件
+      - ./staticfiles:/www/staticfiles  # 收集的静态文件
+      - ./media:/www/media  # 媒体文件
+      - ./templates:/www/templates  # 模板文件
+      - ./logs:/www/logs  # 应用日志
+      - ./relate:/www/relate  # 相关文件
+      - ./db.sqlite3:/www/db.sqlite3  # 数据库文件
+      - ./requirements.txt:/www/requirements.txt  # 依赖文件
+      - ./parking.conf:/etc/supervisor/conf.d/parking.conf  # Supervisor 配置
+      - ./run_mqtt.sh:/www/run_mqtt.sh  # MQTT 运行脚本
+      - ./run_gunicorn.py:/www/run_gunicorn.py  # Gunicorn 运行脚本
+      - ./manage.py:/www/manage.py  # Django 管理脚本
+      - supervisor_logs:/var/log/supervisor  # Supervisor 日志
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DJANGO_SETTINGS_MODULE=backend_try.settings
+    command: >
+      bash -c "chmod +x /www/run_mqtt.sh &&
+               /usr/bin/supervisord -n -c /etc/supervisor/conf.d/parking.conf"
+    restart: unless-stopped  # 添加自动重启策略
+
+volumes:
+  supervisor_logs:
+    driver: local 

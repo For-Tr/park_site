@@ -1,0 +1,1623 @@
+INFO 2025-05-15 15:53:34,794 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 15:53:38,843 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 15:53:38,938 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 15:53:44,062 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 15:53:51,281 views 收到导航请求，起点: B1-003, 目标位置: B1-067
+INFO 2025-05-15 15:53:51,281 views 开始调用 viewmap_main
+INFO 2025-05-15 15:54:10,184 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 15:54:10,187 basehttp "GET /navigate/?position=B1-067&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-15 15:54:10,208 basehttp "GET /static/navigation_map.html?_t=1747295650188 HTTP/1.1" 200 305601
+INFO 2025-05-15 15:56:57,165 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-15 15:56:58,739 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 15:57:37,783 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-15 15:57:39,362 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 15:59:15,162 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-15 15:59:16,935 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 15:59:54,949 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-15 15:59:56,404 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:00:21,204 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 16:00:21,305 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 16:00:26,549 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 16:00:32,071 views 收到导航请求，起点: B1-003, 目标位置: B1-067
+INFO 2025-05-15 16:00:32,072 views 开始调用 viewmap_main
+INFO 2025-05-15 16:00:49,438 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:00:49,440 basehttp "GET /navigate/?position=B1-067&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-15 16:00:49,467 basehttp "GET /static/navigation_map.html?_t=1747296049444 HTTP/1.1" 200 305601
+INFO 2025-05-15 16:02:43,560 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:02:49,782 basehttp "GET / HTTP/1.1" 200 17753
+WARNING 2025-05-15 16:02:50,054 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-15 16:02:50,077 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-15 16:02:50,122 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-15 16:02:50,163 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-15 16:02:50,169 log Not Found: /favicon.ico
+WARNING 2025-05-15 16:02:50,170 basehttp "GET /favicon.ico HTTP/1.1" 404 4728
+WARNING 2025-05-15 16:02:50,181 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-15 16:02:56,836 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1%E3%80%81 HTTP/1.1" 200 25
+INFO 2025-05-15 16:02:58,146 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 16:03:04,069 views 收到导航请求，起点: B1-003, 目标位置: B1-067
+INFO 2025-05-15 16:03:04,070 views 开始调用 viewmap_main
+INFO 2025-05-15 16:03:21,963 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:03:21,965 basehttp "GET /navigate/?position=B1-067&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-15 16:03:21,986 basehttp "GET /static/navigation_map.html?_t=1747296201967 HTTP/1.1" 200 305601
+INFO 2025-05-15 16:05:16,231 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 16:05:17,908 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:05:52,880 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 16:05:54,327 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:06:02,178 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 16:06:02,353 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 16:06:08,922 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 16:06:16,116 views 收到导航请求，起点: B1-003, 目标位置: B1-067
+INFO 2025-05-15 16:06:16,117 views 开始调用 viewmap_main，使用 B1 区域地图文件
+ERROR 2025-05-15 16:06:16,233 views 生成导航地图失败
+ERROR 2025-05-15 16:06:16,235 log Internal Server Error: /navigate/
+ERROR 2025-05-15 16:06:16,253 basehttp "GET /navigate/?position=B1-067&start=B1-003 HTTP/1.1" 500 79
+INFO 2025-05-15 16:06:54,120 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 16:06:55,814 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:07:07,109 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 16:07:08,625 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:07:17,155 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 16:07:17,258 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 16:07:22,454 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 16:07:27,161 views 收到导航请求，起点: B1-003, 目标位置: B1-067
+INFO 2025-05-15 16:07:27,161 views 开始调用 viewmap_main，使用 B1 区域地图文件
+INFO 2025-05-15 16:07:28,569 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:07:28,572 basehttp "GET /navigate/?position=B1-067&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-15 16:07:28,601 basehttp "GET /static/navigation_map.html?_t=1747296448577 HTTP/1.1" 200 98530
+INFO 2025-05-15 16:37:18,317 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 16:37:21,015 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:37:55,971 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-15 16:37:57,618 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:38:00,428 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:38:05,578 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 16:38:05,923 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 16:38:17,223 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 16:38:21,456 views 收到导航请求，起点: B1-003, 目标位置: B1-067
+INFO 2025-05-15 16:38:21,456 views 开始调用 viewmap_main，使用 B1 区域地图文件
+INFO 2025-05-15 16:38:28,731 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:38:28,733 basehttp "GET /navigate/?position=B1-067&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-15 16:38:28,759 basehttp "GET /static/navigation_map.html?_t=1747298308737 HTTP/1.1" 200 155873
+INFO 2025-05-15 16:48:40,294 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:48:44,371 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 16:48:44,467 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 16:48:49,481 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 16:48:54,616 views 收到导航请求，起点: B1-003, 目标位置: B1-067
+INFO 2025-05-15 16:48:54,617 views 开始调用 viewmap_main，使用 B1 区域地图文件
+INFO 2025-05-15 16:49:01,548 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:49:01,549 basehttp "GET /navigate/?position=B1-067&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-15 16:49:01,566 basehttp "GET /static/navigation_map.html?_t=1747298941553 HTTP/1.1" 200 155873
+INFO 2025-05-15 16:49:16,632 views 收到导航请求，起点: B1-331, 目标位置: B1-067
+INFO 2025-05-15 16:49:16,632 views 开始调用 viewmap_main，使用 B1 区域地图文件
+INFO 2025-05-15 16:49:23,352 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:49:23,353 basehttp "GET /navigate/?position=B1-067&start=B1-331 HTTP/1.1" 200 107
+INFO 2025-05-15 16:49:23,382 basehttp "GET /static/navigation_map.html?_t=1747298963356 HTTP/1.1" 200 156279
+INFO 2025-05-15 16:50:21,035 views 收到导航请求，起点: B2-056, 目标位置: B1-067
+ERROR 2025-05-15 16:50:21,035 views 起点和目标位置不在同一区域: B2-056 -> B1-067
+WARNING 2025-05-15 16:50:21,036 log Bad Request: /navigate/
+WARNING 2025-05-15 16:50:21,037 basehttp "GET /navigate/?position=B1-067&start=B2-056 HTTP/1.1" 400 109
+INFO 2025-05-15 16:50:32,147 views 收到导航请求，起点: B1-006, 目标位置: B1-067
+INFO 2025-05-15 16:50:32,148 views 开始调用 viewmap_main，使用 B1 区域地图文件
+INFO 2025-05-15 16:50:38,684 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:50:38,687 basehttp "GET /navigate/?position=B1-067&start=B1-006 HTTP/1.1" 200 107
+INFO 2025-05-15 16:50:38,706 basehttp "GET /static/navigation_map.html?_t=1747299038689 HTTP/1.1" 200 155885
+INFO 2025-05-15 16:51:07,215 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:52:18,550 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-15 16:52:20,165 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:52:45,147 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 16:52:49,074 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:52:54,020 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 16:52:54,116 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 16:53:00,338 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-15 16:53:11,354 views 收到导航请求，起点: B2-003, 目标位置: B2-071
+INFO 2025-05-15 16:53:11,354 views 开始调用 viewmap_main，使用 B1 区域地图文件
+INFO 2025-05-15 16:53:18,422 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:53:18,426 basehttp "GET /navigate/?position=B2-071&start=B2-003 HTTP/1.1" 200 107
+INFO 2025-05-15 16:53:18,447 basehttp "GET /static/navigation_map.html?_t=1747299198428 HTTP/1.1" 200 161326
+INFO 2025-05-15 16:53:30,666 views 收到导航请求，起点: B1-002, 目标位置: B2-071
+ERROR 2025-05-15 16:53:30,667 views 起点和目标位置不在同一区域: B1-002 -> B2-071
+WARNING 2025-05-15 16:53:30,668 log Bad Request: /navigate/
+WARNING 2025-05-15 16:53:30,668 basehttp "GET /navigate/?position=B2-071&start=B1-002 HTTP/1.1" 400 109
+INFO 2025-05-15 16:53:40,437 views 收到导航请求，起点: B2-021, 目标位置: B2-071
+INFO 2025-05-15 16:53:40,437 views 开始调用 viewmap_main，使用 B1 区域地图文件
+INFO 2025-05-15 16:53:47,500 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:53:47,502 basehttp "GET /navigate/?position=B2-071&start=B2-021 HTTP/1.1" 200 107
+INFO 2025-05-15 16:53:47,522 basehttp "GET /static/navigation_map.html?_t=1747299227505 HTTP/1.1" 200 163286
+INFO 2025-05-15 16:53:57,755 views 收到导航请求，起点: B2-021, 目标位置: B1-305
+ERROR 2025-05-15 16:53:57,755 views 起点和目标位置不在同一区域: B2-021 -> B1-305
+WARNING 2025-05-15 16:53:57,756 log Bad Request: /navigate/
+WARNING 2025-05-15 16:53:57,756 basehttp "GET /navigate/?position=B1-305&start=B2-021 HTTP/1.1" 400 109
+INFO 2025-05-15 16:54:07,691 views 收到导航请求，起点: B1-005, 目标位置: B1-305
+INFO 2025-05-15 16:54:07,691 views 开始调用 viewmap_main，使用 B1 区域地图文件
+INFO 2025-05-15 16:54:12,522 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 16:54:12,524 basehttp "GET /navigate/?position=B1-305&start=B1-005 HTTP/1.1" 200 107
+INFO 2025-05-15 16:54:12,544 basehttp "GET /static/navigation_map.html?_t=1747299252527 HTTP/1.1" 200 155971
+INFO 2025-05-15 16:54:25,620 views 收到导航请求，起点: B1-005, 目标位置: B2-071
+ERROR 2025-05-15 16:54:25,620 views 起点和目标位置不在同一区域: B1-005 -> B2-071
+WARNING 2025-05-15 16:54:25,621 log Bad Request: /navigate/
+WARNING 2025-05-15 16:54:25,622 basehttp "GET /navigate/?position=B2-071&start=B1-005 HTTP/1.1" 400 109
+INFO 2025-05-15 16:54:28,700 views 收到导航请求，起点: B1-005, 目标位置: B2-071
+ERROR 2025-05-15 16:54:28,701 views 起点和目标位置不在同一区域: B1-005 -> B2-071
+WARNING 2025-05-15 16:54:28,702 log Bad Request: /navigate/
+WARNING 2025-05-15 16:54:28,702 basehttp "GET /navigate/?position=B2-071&start=B1-005 HTTP/1.1" 400 109
+INFO 2025-05-15 16:56:52,115 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 16:56:53,726 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:59:13,149 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 16:59:14,812 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:59:33,360 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 16:59:35,022 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:59:53,192 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 16:59:57,781 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 16:59:57,878 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 17:00:06,226 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-15 17:00:17,559 views 收到导航请求，起点: B2-001, 目标位置: B2-071
+ERROR 2025-05-15 17:00:17,559 views ❌ 生成导航地图时出错: module 'relate.viewmap' has no attribute 'create_map'
+ERROR 2025-05-15 17:00:17,561 views Traceback (most recent call last):
+  File "/home/vchip/parking/www_slim/app/views.py", line 231, in navigate_to_position
+    map_html = viewmap.create_map(
+AttributeError: module 'relate.viewmap' has no attribute 'create_map'
+
+ERROR 2025-05-15 17:00:17,562 log Internal Server Error: /navigate/
+ERROR 2025-05-15 17:00:17,562 basehttp "GET /navigate/?position=B2-071&start=B2-001 HTTP/1.1" 500 140
+INFO 2025-05-15 17:00:22,506 views 收到导航请求，起点: B2-002, 目标位置: B2-071
+ERROR 2025-05-15 17:00:22,506 views ❌ 生成导航地图时出错: module 'relate.viewmap' has no attribute 'create_map'
+ERROR 2025-05-15 17:00:22,506 views Traceback (most recent call last):
+  File "/home/vchip/parking/www_slim/app/views.py", line 231, in navigate_to_position
+    map_html = viewmap.create_map(
+AttributeError: module 'relate.viewmap' has no attribute 'create_map'
+
+ERROR 2025-05-15 17:00:22,507 log Internal Server Error: /navigate/
+ERROR 2025-05-15 17:00:22,508 basehttp "GET /navigate/?position=B2-071&start=B2-002 HTTP/1.1" 500 140
+INFO 2025-05-15 17:00:41,251 views 收到导航请求，起点: B2-021, 目标位置: B2-071
+ERROR 2025-05-15 17:00:41,252 views ❌ 生成导航地图时出错: module 'relate.viewmap' has no attribute 'create_map'
+ERROR 2025-05-15 17:00:41,252 views Traceback (most recent call last):
+  File "/home/vchip/parking/www_slim/app/views.py", line 231, in navigate_to_position
+    map_html = viewmap.create_map(
+AttributeError: module 'relate.viewmap' has no attribute 'create_map'
+
+ERROR 2025-05-15 17:00:41,253 log Internal Server Error: /navigate/
+ERROR 2025-05-15 17:00:41,253 basehttp "GET /navigate/?position=B2-071&start=B2-021 HTTP/1.1" 500 140
+INFO 2025-05-15 17:00:53,906 views 收到导航请求，起点: B2-021, 目标位置: B1-207
+ERROR 2025-05-15 17:00:53,906 views 起点和目标位置不在同一区域: B2-021 -> B1-207
+WARNING 2025-05-15 17:00:53,907 log Bad Request: /navigate/
+WARNING 2025-05-15 17:00:53,907 basehttp "GET /navigate/?position=B1-207&start=B2-021 HTTP/1.1" 400 109
+INFO 2025-05-15 17:01:00,084 views 收到导航请求，起点: B1-004, 目标位置: B1-207
+ERROR 2025-05-15 17:01:00,085 views ❌ 生成导航地图时出错: module 'relate.viewmap' has no attribute 'create_map'
+ERROR 2025-05-15 17:01:00,085 views Traceback (most recent call last):
+  File "/home/vchip/parking/www_slim/app/views.py", line 231, in navigate_to_position
+    map_html = viewmap.create_map(
+AttributeError: module 'relate.viewmap' has no attribute 'create_map'
+
+ERROR 2025-05-15 17:01:00,086 log Internal Server Error: /navigate/
+ERROR 2025-05-15 17:01:00,087 basehttp "GET /navigate/?position=B1-207&start=B1-004 HTTP/1.1" 500 140
+INFO 2025-05-15 17:01:18,428 views 收到导航请求，起点: B1-012, 目标位置: B1-207
+ERROR 2025-05-15 17:01:18,428 views ❌ 生成导航地图时出错: module 'relate.viewmap' has no attribute 'create_map'
+ERROR 2025-05-15 17:01:18,429 views Traceback (most recent call last):
+  File "/home/vchip/parking/www_slim/app/views.py", line 231, in navigate_to_position
+    map_html = viewmap.create_map(
+AttributeError: module 'relate.viewmap' has no attribute 'create_map'
+
+ERROR 2025-05-15 17:01:18,430 log Internal Server Error: /navigate/
+ERROR 2025-05-15 17:01:18,430 basehttp "GET /navigate/?position=B1-207&start=B1-012 HTTP/1.1" 500 140
+INFO 2025-05-15 17:05:27,288 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 17:05:27,389 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 17:05:34,577 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 17:05:40,992 views 收到导航请求，起点: B1-003, 目标位置: B1-028
+ERROR 2025-05-15 17:05:40,992 views ❌ 生成导航地图时出错: module 'relate.viewmap' has no attribute 'create_map'
+ERROR 2025-05-15 17:05:40,993 views Traceback (most recent call last):
+  File "/home/vchip/parking/www_slim/app/views.py", line 231, in navigate_to_position
+    map_html = viewmap.create_map(
+AttributeError: module 'relate.viewmap' has no attribute 'create_map'
+
+ERROR 2025-05-15 17:05:40,994 log Internal Server Error: /navigate/
+ERROR 2025-05-15 17:05:40,994 basehttp "GET /navigate/?position=B1-028&start=B1-003 HTTP/1.1" 500 140
+INFO 2025-05-15 17:08:35,683 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 17:08:37,340 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 17:12:14,084 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-15 17:12:15,744 autoreload Watching for file changes with StatReloader
+INFO 2025-05-15 17:12:29,032 basehttp "GET / HTTP/1.1" 200 17753
+INFO 2025-05-15 17:12:29,180 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 17:12:43,854 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 17:12:47,881 views 收到导航请求，起点: B1-002, 目标位置: B1-028
+INFO 2025-05-15 17:12:54,705 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:12:54,707 basehttp "GET /navigate/?position=B1-028&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-15 17:12:54,731 basehttp "GET /static/navigation_map.html?_t=1747300374710 HTTP/1.1" 200 155552
+INFO 2025-05-15 17:13:02,685 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-15 17:13:12,041 views 收到导航请求，起点: B2-003, 目标位置: B2-071
+INFO 2025-05-15 17:13:19,360 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:13:19,362 basehttp "GET /navigate/?position=B2-071&start=B2-003 HTTP/1.1" 200 107
+INFO 2025-05-15 17:13:19,381 basehttp "GET /static/navigation_map.html?_t=1747300399365 HTTP/1.1" 200 161326
+INFO 2025-05-15 17:13:28,137 views 收到导航请求，起点: B1-002, 目标位置: B2-071
+ERROR 2025-05-15 17:13:28,137 views 起点和目标位置不在同一区域: B1-002 -> B2-071
+WARNING 2025-05-15 17:13:28,138 log Bad Request: /navigate/
+WARNING 2025-05-15 17:13:28,139 basehttp "GET /navigate/?position=B2-071&start=B1-002 HTTP/1.1" 400 109
+INFO 2025-05-15 17:13:38,267 views 收到导航请求，起点: B2-023, 目标位置: B2-071
+INFO 2025-05-15 17:13:45,292 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:13:45,294 basehttp "GET /navigate/?position=B2-071&start=B2-023 HTTP/1.1" 200 107
+INFO 2025-05-15 17:13:45,314 basehttp "GET /static/navigation_map.html?_t=1747300425298 HTTP/1.1" 200 162986
+INFO 2025-05-15 17:15:08,973 views 收到导航请求，起点: B1-002, 目标位置: B2-071
+ERROR 2025-05-15 17:15:08,974 views 起点和目标位置不在同一区域: B1-002 -> B2-071
+WARNING 2025-05-15 17:15:08,974 log Bad Request: /navigate/
+WARNING 2025-05-15 17:15:08,975 basehttp "GET /navigate/?position=B2-071&start=B1-002 HTTP/1.1" 400 109
+INFO 2025-05-15 17:17:14,510 basehttp "GET / HTTP/1.1" 200 18249
+INFO 2025-05-15 17:17:14,609 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 17:17:20,905 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 17:17:24,469 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-15 17:17:29,372 views 收到导航请求，起点: B1-002, 目标位置: B1-207
+INFO 2025-05-15 17:17:35,852 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:17:35,855 basehttp "GET /navigate/?position=B1-207&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-15 17:17:35,870 basehttp "GET /static/navigation_map.html?_t=1747300655858 HTTP/1.1" 200 151912
+INFO 2025-05-15 17:17:48,692 views 收到导航请求，起点: B2-003, 目标位置: B1-207
+ERROR 2025-05-15 17:17:48,692 views 起点和目标位置不在同一区域: B2-003 -> B1-207
+WARNING 2025-05-15 17:17:48,693 log Bad Request: /navigate/
+WARNING 2025-05-15 17:17:48,694 basehttp "GET /navigate/?position=B1-207&start=B2-003 HTTP/1.1" 400 109
+ERROR 2025-05-15 17:17:54,715 views 未提供位置信息
+WARNING 2025-05-15 17:17:54,716 log Bad Request: /navigate/
+WARNING 2025-05-15 17:17:54,716 basehttp "GET /navigate/?position=&start=B1-003 HTTP/1.1" 400 55
+ERROR 2025-05-15 17:18:01,956 views 未提供位置信息
+WARNING 2025-05-15 17:18:01,956 log Bad Request: /navigate/
+WARNING 2025-05-15 17:18:01,957 basehttp "GET /navigate/?position=&start=B1-005 HTTP/1.1" 400 55
+INFO 2025-05-15 17:24:55,463 basehttp "GET / HTTP/1.1" 200 18355
+INFO 2025-05-15 17:24:55,558 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 17:25:01,351 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-15 17:25:06,485 views 收到导航请求，起点: B1-003, 目标位置: B1-207
+INFO 2025-05-15 17:25:13,114 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:25:13,116 basehttp "GET /navigate/?position=B1-207&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-15 17:25:13,136 basehttp "GET /static/navigation_map.html?_t=1747301113123 HTTP/1.1" 200 151671
+INFO 2025-05-15 17:27:52,963 views 收到导航请求，起点: B2-003, 目标位置: B1-207
+ERROR 2025-05-15 17:27:52,963 views 起点和目标位置不在同一区域: B2-003 -> B1-207
+WARNING 2025-05-15 17:27:52,964 log Bad Request: /navigate/
+WARNING 2025-05-15 17:27:52,965 basehttp "GET /navigate/?position=B1-207&start=B2-003 HTTP/1.1" 400 109
+INFO 2025-05-15 17:27:57,179 views 收到导航请求，起点: B1-002, 目标位置: B1-207
+INFO 2025-05-15 17:28:03,636 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:28:03,638 basehttp "GET /navigate/?position=B1-207&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-15 17:28:03,662 basehttp "GET /static/navigation_map.html?_t=1747301283641 HTTP/1.1" 200 151912
+INFO 2025-05-15 17:28:11,395 views 收到导航请求，起点: B1-049, 目标位置: B1-207
+INFO 2025-05-15 17:28:17,694 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:28:17,698 basehttp "GET /navigate/?position=B1-207&start=B1-049 HTTP/1.1" 200 107
+INFO 2025-05-15 17:28:17,721 basehttp "GET /static/navigation_map.html?_t=1747301297699 HTTP/1.1" 200 156094
+INFO 2025-05-15 17:30:38,700 basehttp "GET / HTTP/1.1" 200 18525
+INFO 2025-05-15 17:30:38,806 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 17:30:43,509 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-15 17:30:54,100 views 收到导航请求，起点: B2-003, 目标位置: B2-071
+INFO 2025-05-15 17:31:01,008 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:31:01,010 basehttp "GET /navigate/?position=B2-071&start=B2-003 HTTP/1.1" 200 107
+INFO 2025-05-15 17:31:01,032 basehttp "GET /static/navigation_map.html?_t=1747301461013 HTTP/1.1" 200 161326
+INFO 2025-05-15 17:31:12,356 views 收到导航请求，起点: B1-002, 目标位置: B1-305
+INFO 2025-05-15 17:31:18,817 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:31:18,818 basehttp "GET /navigate/?position=B1-305&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-15 17:31:18,838 basehttp "GET /static/navigation_map.html?_t=1747301478820 HTTP/1.1" 200 150619
+INFO 2025-05-15 17:31:35,156 views 收到导航请求，起点: B1-028, 目标位置: B1-356
+INFO 2025-05-15 17:31:41,498 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:31:41,503 basehttp "GET /navigate/?position=B1-356&start=B1-028 HTTP/1.1" 200 107
+INFO 2025-05-15 17:31:41,521 basehttp "GET /static/navigation_map.html?_t=1747301501503 HTTP/1.1" 200 153696
+INFO 2025-05-15 17:32:26,433 basehttp "GET /static/navigation_map.html?_t=1747301546335 HTTP/1.1" 200 153696
+WARNING 2025-05-15 17:37:08,910 log Not Found: /favicon.ico
+WARNING 2025-05-15 17:37:08,910 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-15 17:37:09,236 basehttp "GET / HTTP/1.1" 200 18525
+INFO 2025-05-15 17:37:09,281 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232803
+INFO 2025-05-15 17:37:09,303 basehttp "GET /static/js/axios.js HTTP/1.1" 200 22176
+INFO 2025-05-15 17:37:09,304 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 200 94842
+INFO 2025-05-15 17:37:09,305 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60635
+INFO 2025-05-15 17:37:09,308 basehttp "GET /static/element-ui/index.css HTTP/1.1" 200 235010
+INFO 2025-05-15 17:37:09,326 basehttp "GET /static/js/vue.js HTTP/1.1" 200 152492
+INFO 2025-05-15 17:37:09,367 basehttp "GET /static/element-ui/index.js HTTP/1.1" 200 575076
+INFO 2025-05-15 17:37:09,892 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-15 17:37:10,242 log Not Found: /favicon.ico
+WARNING 2025-05-15 17:37:10,242 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-15 17:37:56,557 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-15 17:38:00,168 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2025-05-15 17:38:42,522 views 收到导航请求，起点: B1-068, 目标位置: B1-207
+INFO 2025-05-15 17:38:48,608 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:38:48,609 basehttp "GET /navigate/?position=B1-207&start=B1-068 HTTP/1.1" 200 107
+INFO 2025-05-15 17:38:48,669 basehttp "GET /static/navigation_map.html?_t=1747301926873 HTTP/1.1" 200 156806
+INFO 2025-05-15 17:40:28,606 views 收到导航请求，起点: B2-096, 目标位置: B1-309
+ERROR 2025-05-15 17:40:28,607 views 起点和目标位置不在同一区域: B2-096 -> B1-309
+WARNING 2025-05-15 17:40:28,607 log Bad Request: /navigate/
+WARNING 2025-05-15 17:40:28,608 basehttp "GET /navigate/?position=B1-309&start=B2-096 HTTP/1.1" 400 109
+INFO 2025-05-15 17:40:46,054 views 收到导航请求，起点: B1-096, 目标位置: B1-309
+INFO 2025-05-15 17:40:52,142 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:40:52,143 basehttp "GET /navigate/?position=B1-309&start=B1-096 HTTP/1.1" 200 107
+INFO 2025-05-15 17:40:52,199 basehttp "GET /static/navigation_map.html?_t=1747302050394 HTTP/1.1" 200 154995
+INFO 2025-05-15 17:41:06,643 basehttp "GET /static/navigation_map.html?_t=1747302064838 HTTP/1.1" 200 154995
+INFO 2025-05-15 17:41:32,156 views 收到导航请求，起点: B1-192, 目标位置: B1-309
+INFO 2025-05-15 17:41:38,265 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:41:38,266 basehttp "GET /navigate/?position=B1-309&start=B1-192 HTTP/1.1" 200 107
+INFO 2025-05-15 17:41:38,323 basehttp "GET /static/navigation_map.html?_t=1747302096518 HTTP/1.1" 200 152617
+INFO 2025-05-15 17:41:53,737 basehttp "GET /static/navigation_map.html?_t=1747302111929 HTTP/1.1" 200 152617
+INFO 2025-05-15 17:41:58,295 basehttp "GET / HTTP/1.1" 200 18525
+INFO 2025-05-15 17:41:58,551 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232803
+INFO 2025-05-15 17:41:58,552 basehttp "GET /static/element-ui/index.css HTTP/1.1" 200 235010
+INFO 2025-05-15 17:41:58,565 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60635
+INFO 2025-05-15 17:41:58,566 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 200 94842
+INFO 2025-05-15 17:41:58,578 basehttp "GET /static/js/vue.js HTTP/1.1" 200 152492
+INFO 2025-05-15 17:41:58,599 basehttp "GET /static/js/axios.js HTTP/1.1" 200 22176
+INFO 2025-05-15 17:41:58,624 basehttp "GET /static/element-ui/index.js HTTP/1.1" 200 575076
+INFO 2025-05-15 17:41:58,761 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-15 17:41:58,820 log Not Found: /favicon.ico
+WARNING 2025-05-15 17:41:58,820 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-15 17:42:08,295 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-15 17:42:10,406 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2025-05-15 17:42:28,197 views 收到导航请求，起点: B2-008, 目标位置: B2-071
+INFO 2025-05-15 17:42:34,830 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:42:34,832 basehttp "GET /navigate/?position=B2-071&start=B2-008 HTTP/1.1" 200 107
+INFO 2025-05-15 17:42:34,899 basehttp "GET /static/navigation_map.html?_t=1747302155190 HTTP/1.1" 200 161916
+INFO 2025-05-15 17:42:52,526 basehttp "GET / HTTP/1.1" 200 18525
+INFO 2025-05-15 17:42:52,555 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232803
+INFO 2025-05-15 17:42:52,608 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 200 94842
+INFO 2025-05-15 17:42:52,608 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60635
+INFO 2025-05-15 17:42:52,608 basehttp "GET /static/element-ui/index.css HTTP/1.1" 200 235010
+INFO 2025-05-15 17:42:52,619 basehttp "GET /static/js/axios.js HTTP/1.1" 200 22176
+INFO 2025-05-15 17:42:52,642 basehttp "GET /static/js/vue.js HTTP/1.1" 200 152492
+INFO 2025-05-15 17:42:52,728 basehttp "GET /static/element-ui/index.js HTTP/1.1" 200 575076
+INFO 2025-05-15 17:42:52,827 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-15 17:42:52,862 log Not Found: /favicon.ico
+WARNING 2025-05-15 17:42:52,863 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-15 17:43:03,917 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B5 HTTP/1.1" 200 303
+INFO 2025-05-15 17:43:11,185 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4BB HTTP/1.1" 200 490
+INFO 2025-05-15 17:43:20,526 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4BUG HTTP/1.1" 200 25
+INFO 2025-05-15 17:43:23,079 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4BU HTTP/1.1" 200 25
+INFO 2025-05-15 17:43:27,333 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4BB HTTP/1.1" 200 490
+INFO 2025-05-15 17:43:30,975 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2025-05-15 17:44:12,432 views 收到导航请求，起点: B1-021, 目标位置: B1-221
+INFO 2025-05-15 17:44:18,460 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:44:18,461 basehttp "GET /navigate/?position=B1-221&start=B1-021 HTTP/1.1" 200 107
+INFO 2025-05-15 17:44:18,538 basehttp "GET /static/navigation_map.html?_t=1747302258488 HTTP/1.1" 200 154626
+INFO 2025-05-15 17:47:12,578 views 收到导航请求，起点: B1-096, 目标位置: B1-221
+INFO 2025-05-15 17:47:19,079 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:47:19,084 basehttp "GET /navigate/?position=B1-221&start=B1-096 HTTP/1.1" 200 107
+INFO 2025-05-15 17:47:19,208 basehttp "GET /static/navigation_map.html?_t=1747302439132 HTTP/1.1" 200 154071
+INFO 2025-05-15 17:50:01,318 basehttp "GET / HTTP/1.1" 200 18525
+INFO 2025-05-15 17:50:01,408 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 17:50:04,869 basehttp "GET / HTTP/1.1" 200 18525
+INFO 2025-05-15 17:50:04,913 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-15 17:50:19,338 basehttp "GET /api/search-by-plate/?plate=B12 HTTP/1.1" 200 25
+INFO 2025-05-15 17:50:24,900 basehttp "GET /api/search-by-plate/?plate=B15 HTTP/1.1" 200 25
+INFO 2025-05-15 17:50:31,775 basehttp "GET /api/search-by-plate/?plate=BB2 HTTP/1.1" 200 117
+INFO 2025-05-15 17:50:40,577 basehttp "GET /api/search-by-plate/?plate=224 HTTP/1.1" 200 117
+INFO 2025-05-15 17:50:50,494 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-15 17:51:01,015 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-15 17:51:10,464 views 收到导航请求，起点: B1-024, 目标位置: B1-068
+INFO 2025-05-15 17:51:16,497 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-15 17:51:16,498 basehttp "GET /navigate/?position=B1-068&start=B1-024 HTTP/1.1" 200 107
+INFO 2025-05-15 17:51:16,639 basehttp "GET /static/navigation_map.html?_t=1747302676590 HTTP/1.1" 200 153831
+INFO 2025-05-16 08:44:40,238 basehttp "GET / HTTP/1.1" 200 18525
+INFO 2025-05-16 08:44:40,288 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232803
+INFO 2025-05-16 08:44:40,289 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60635
+INFO 2025-05-16 08:44:40,291 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 200 94842
+INFO 2025-05-16 08:44:40,301 basehttp "GET /static/js/vue.js HTTP/1.1" 200 152492
+INFO 2025-05-16 08:44:40,312 basehttp "GET /static/element-ui/index.css HTTP/1.1" 200 235010
+INFO 2025-05-16 08:44:40,325 basehttp "GET /static/js/axios.js HTTP/1.1" 200 22176
+INFO 2025-05-16 08:44:40,375 basehttp "GET /static/element-ui/index.js HTTP/1.1" 200 575076
+INFO 2025-05-16 08:44:40,684 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 08:44:40,756 log Not Found: /favicon.ico
+WARNING 2025-05-16 08:44:40,756 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+WARNING 2025-05-16 11:25:58,377 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 11:25:58,408 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 11:25:58,421 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:28:49,940 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 11:28:51,782 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 11:29:04,357 basehttp "GET / HTTP/1.1" 200 18525
+INFO 2025-05-16 11:29:04,508 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 11:29:10,304 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 11:29:16,603 views 收到导航请求，起点: B1-003, 目标位置: B1-028
+INFO 2025-05-16 11:29:23,238 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 11:29:23,240 basehttp "GET /navigate/?position=B1-028&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-16 11:29:23,269 basehttp "GET /static/navigation_map.html?_t=1747366163243 HTTP/1.1" 200 155181
+INFO 2025-05-16 11:29:51,555 views 收到导航请求，起点: B1-118, 目标位置: B1-028
+INFO 2025-05-16 11:29:57,837 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 11:29:57,839 basehttp "GET /navigate/?position=B1-028&start=B1-118 HTTP/1.1" 200 107
+INFO 2025-05-16 11:29:57,891 basehttp "GET /static/navigation_map.html?_t=1747366197881 HTTP/1.1" 200 152984
+WARNING 2025-05-16 11:30:26,662 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 11:30:26,683 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 11:30:26,693 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:31:35,058 basehttp "GET / HTTP/1.1" 200 18525
+WARNING 2025-05-16 11:31:35,305 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+INFO 2025-05-16 11:31:35,326 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 11:31:35,454 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 11:31:35,487 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:31:47,580 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 11:31:59,424 views 收到导航请求，起点: B1-118, 目标位置: B1-122
+INFO 2025-05-16 11:32:06,120 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 11:32:06,122 basehttp "GET /navigate/?position=B1-122&start=B1-118 HTTP/1.1" 200 107
+INFO 2025-05-16 11:32:06,142 basehttp "GET /static/navigation_map.html?_t=1747366326126 HTTP/1.1" 200 151893
+INFO 2025-05-16 11:33:59,981 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 11:34:00,136 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 11:34:00,185 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-16 11:34:00,268 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 11:34:00,280 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:34:05,157 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 11:34:10,483 views 收到导航请求，起点: B1-002, 目标位置: B1-068
+INFO 2025-05-16 11:34:17,138 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 11:34:17,140 basehttp "GET /navigate/?position=B1-068&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-16 11:34:17,165 basehttp "GET /static/navigation_map.html?_t=1747366457145 HTTP/1.1" 200 155619
+INFO 2025-05-16 11:36:55,086 basehttp "GET / HTTP/1.1" 200 19183
+WARNING 2025-05-16 11:36:55,311 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+INFO 2025-05-16 11:36:55,373 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 11:36:55,399 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 11:36:55,517 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:36:59,413 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 11:37:04,399 views 收到导航请求，起点: B1-002, 目标位置: B1-068
+INFO 2025-05-16 11:37:10,814 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 11:37:10,817 basehttp "GET /navigate/?position=B1-068&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-16 11:37:10,839 basehttp "GET /static/navigation_map.html?_t=1747366630820 HTTP/1.1" 200 155619
+INFO 2025-05-16 11:39:15,931 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 11:39:16,074 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 11:39:16,164 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-16 11:39:16,245 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 11:39:16,270 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:39:31,395 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 11:39:38,389 views 收到导航请求，起点: B1-121, 目标位置: B1-067
+INFO 2025-05-16 11:39:45,134 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 11:39:45,136 basehttp "GET /navigate/?position=B1-067&start=B1-121 HTTP/1.1" 200 107
+INFO 2025-05-16 11:39:45,156 basehttp "GET /static/navigation_map.html?_t=1747366785139 HTTP/1.1" 200 154943
+INFO 2025-05-16 11:46:48,761 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 11:46:55,604 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 11:46:56,034 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-16 11:46:56,058 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 11:46:56,066 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-16 11:46:56,110 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 11:46:56,115 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-16 11:46:56,131 log Not Found: /favicon.ico
+WARNING 2025-05-16 11:46:56,133 basehttp "GET /favicon.ico HTTP/1.1" 404 4728
+INFO 2025-05-16 11:47:01,811 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 11:47:08,837 views 收到导航请求，起点: B1-112, 目标位置: B1-068
+INFO 2025-05-16 11:47:15,590 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 11:47:15,592 basehttp "GET /navigate/?position=B1-068&start=B1-112 HTTP/1.1" 200 107
+INFO 2025-05-16 11:47:15,623 basehttp "GET /static/navigation_map.html?_t=1747367235595 HTTP/1.1" 200 154553
+WARNING 2025-05-16 11:47:24,743 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 11:47:24,831 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 11:47:24,848 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:50:42,489 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 11:53:35,514 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 11:53:35,695 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 11:53:35,860 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-16 11:53:35,867 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 11:53:36,045 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:53:50,646 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 11:53:55,069 views 收到导航请求，起点: B1-002, 目标位置: B1-067
+ERROR 2025-05-16 11:54:01,928 views 生成导航地图失败
+ERROR 2025-05-16 11:54:01,929 log Internal Server Error: /navigate/
+ERROR 2025-05-16 11:54:01,930 basehttp "GET /navigate/?position=B1-067&start=B1-002 HTTP/1.1" 500 79
+INFO 2025-05-16 11:54:33,652 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 11:54:33,833 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 11:54:33,865 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-16 11:54:33,982 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 11:54:33,986 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:54:43,740 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 11:54:47,976 views 收到导航请求，起点: B1-001, 目标位置: B1-067
+ERROR 2025-05-16 11:54:54,978 views 生成导航地图失败
+ERROR 2025-05-16 11:54:54,979 log Internal Server Error: /navigate/
+ERROR 2025-05-16 11:54:54,980 basehttp "GET /navigate/?position=B1-067&start=B1-001 HTTP/1.1" 500 79
+INFO 2025-05-16 11:56:25,304 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 11:56:25,517 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+INFO 2025-05-16 11:56:25,606 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 11:56:25,738 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 11:56:25,784 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 11:56:29,689 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 11:56:34,428 views 收到导航请求，起点: B1-001, 目标位置: B1-067
+INFO 2025-05-16 11:56:40,999 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 11:56:41,000 basehttp "GET /navigate/?position=B1-067&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 11:56:41,027 basehttp "GET /static/navigation_map.html?_t=1747367801004 HTTP/1.1" 200 156258
+INFO 2025-05-16 11:59:57,865 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 11:59:58,068 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 11:59:58,135 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-16 11:59:58,241 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 11:59:58,254 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 12:00:02,277 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 12:00:08,757 views 收到导航请求，起点: B1-054, 目标位置: B1-067
+INFO 2025-05-16 12:00:15,393 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 12:00:15,395 basehttp "GET /navigate/?position=B1-067&start=B1-054 HTTP/1.1" 200 107
+INFO 2025-05-16 12:00:15,420 basehttp "GET /static/navigation_map.html?_t=1747368015398 HTTP/1.1" 200 155173
+WARNING 2025-05-16 12:01:27,616 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 12:01:27,668 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 12:01:27,671 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 12:04:18,413 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 12:04:18,607 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 12:04:18,666 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-16 12:04:18,763 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 12:04:18,833 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 12:04:23,062 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 12:04:29,178 views 收到导航请求，起点: B1-004, 目标位置: B1-067
+INFO 2025-05-16 12:04:35,684 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 12:04:35,686 basehttp "GET /navigate/?position=B1-067&start=B1-004 HTTP/1.1" 200 107
+INFO 2025-05-16 12:04:35,709 basehttp "GET /static/navigation_map.html?_t=1747368275691 HTTP/1.1" 200 156833
+INFO 2025-05-16 12:07:26,965 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 12:07:27,184 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 12:07:27,314 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 12:07:27,368 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 12:07:27,370 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 12:07:34,448 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 12:07:39,193 views 收到导航请求，起点: B1-003, 目标位置: B1-028
+INFO 2025-05-16 12:07:45,759 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 12:07:45,761 basehttp "GET /navigate/?position=B1-028&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-16 12:07:45,777 basehttp "GET /static/navigation_map.html?_t=1747368465764 HTTP/1.1" 200 155870
+INFO 2025-05-16 12:10:06,579 basehttp "GET / HTTP/1.1" 200 18580
+WARNING 2025-05-16 12:10:06,747 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 12:10:06,851 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-16 12:10:06,971 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 12:10:07,022 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 12:10:11,692 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 12:10:16,241 views 收到导航请求，起点: B1-001, 目标位置: B1-067
+INFO 2025-05-16 12:10:22,897 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 12:10:22,899 basehttp "GET /navigate/?position=B1-067&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 12:10:22,921 basehttp "GET /static/navigation_map.html?_t=1747368622904 HTTP/1.1" 200 156502
+INFO 2025-05-16 12:19:34,312 basehttp "GET / HTTP/1.1" 200 18580
+INFO 2025-05-16 12:19:35,127 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 12:19:35,224 log Not Found: /favicon.ico
+WARNING 2025-05-16 12:19:35,225 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-16 12:19:43,109 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 12:19:52,066 views 收到导航请求，起点: B1-002, 目标位置: B1-122
+INFO 2025-05-16 12:19:58,484 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 12:19:58,486 basehttp "GET /navigate/?position=B1-122&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-16 12:19:58,554 basehttp "GET /static/navigation_map.html?_t=1747369198847 HTTP/1.1" 200 155000
+INFO 2025-05-16 12:20:50,441 views 收到导航请求，起点: B1-001, 目标位置: B1-122
+INFO 2025-05-16 12:20:56,895 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 12:20:56,896 basehttp "GET /navigate/?position=B1-122&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 12:20:57,074 basehttp "GET /static/navigation_map.html?_t=1747369257277 HTTP/1.1" 200 155379
+INFO 2025-05-16 12:20:58,089 basehttp - Broken pipe from ('192.168.1.4', 46068)
+INFO 2025-05-16 15:46:19,744 basehttp "GET / HTTP/1.1" 200 18580
+INFO 2025-05-16 15:46:19,901 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 15:46:24,940 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 15:46:31,383 views 收到导航请求，起点: B1-003, 目标位置: B1-067
+INFO 2025-05-16 15:46:37,586 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 15:46:37,588 basehttp "GET /navigate/?position=B1-067&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-16 15:46:37,609 basehttp "GET /static/navigation_map.html?_t=1747381597592 HTTP/1.1" 200 156563
+WARNING 2025-05-16 15:47:37,078 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 15:47:37,102 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 15:47:37,116 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 15:49:16,351 basehttp "GET / HTTP/1.1" 200 18581
+INFO 2025-05-16 15:49:16,515 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 15:49:20,816 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 15:49:25,269 views 收到导航请求，起点: B1-003, 目标位置: B1-067
+INFO 2025-05-16 15:49:31,457 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 15:49:31,458 basehttp "GET /navigate/?position=B1-067&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-16 15:49:31,477 basehttp "GET /static/navigation_map.html?_t=1747381771462 HTTP/1.1" 200 156563
+WARNING 2025-05-16 15:49:55,258 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 15:49:55,431 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 15:49:55,448 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 15:54:41,967 basehttp "GET / HTTP/1.1" 200 18793
+WARNING 2025-05-16 15:54:42,152 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+INFO 2025-05-16 15:54:42,227 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 15:54:42,368 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 15:54:42,407 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 15:54:46,656 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 15:54:52,003 views 收到导航请求，起点: B1-002, 目标位置: B1-067
+INFO 2025-05-16 15:54:58,663 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 15:54:58,664 basehttp "GET /navigate/?position=B1-067&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-16 15:54:58,682 basehttp "GET /static/navigation_map.html?_t=1747382098667 HTTP/1.1" 200 156560
+INFO 2025-05-16 15:55:11,464 views 收到导航请求，起点: B1-020, 目标位置: B1-067
+INFO 2025-05-16 15:55:17,931 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 15:55:17,934 basehttp "GET /navigate/?position=B1-067&start=B1-020 HTTP/1.1" 200 107
+INFO 2025-05-16 15:55:17,958 basehttp "GET /static/navigation_map.html?_t=1747382117940 HTTP/1.1" 200 155435
+INFO 2025-05-16 16:10:24,937 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:10:26,626 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:10:34,881 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:10:36,535 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:10:52,787 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:10:54,420 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:10:59,265 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:10:59,449 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:11:04,305 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 16:11:09,086 views 收到导航请求，起点: B1-003, 目标位置: B1-028
+INFO 2025-05-16 16:11:15,880 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:11:15,882 basehttp "GET /navigate/?position=B1-028&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-16 16:11:15,899 basehttp "GET /static/navigation_map.html?_t=1747383075886 HTTP/1.1" 200 156554
+INFO 2025-05-16 16:12:31,304 views 收到导航请求，起点: B1-098, 目标位置: B1-028
+INFO 2025-05-16 16:12:37,487 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:12:37,489 basehttp "GET /navigate/?position=B1-028&start=B1-098 HTTP/1.1" 200 107
+INFO 2025-05-16 16:12:37,509 basehttp "GET /static/navigation_map.html?_t=1747383157491 HTTP/1.1" 200 154722
+WARNING 2025-05-16 16:12:52,636 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-16 16:12:52,682 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-16 16:12:52,685 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-16 16:14:59,422 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:15:02,516 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:15:06,063 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:15:06,239 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:15:12,645 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 16:15:17,120 views 收到导航请求，起点: B1-002, 目标位置: B1-028
+INFO 2025-05-16 16:15:23,702 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:15:23,704 basehttp "GET /navigate/?position=B1-028&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-16 16:15:23,730 basehttp "GET /static/navigation_map.html?_t=1747383323708 HTTP/1.1" 200 156468
+INFO 2025-05-16 16:15:44,494 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:15:47,239 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:15:50,190 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:15:50,368 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:15:55,216 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 16:15:59,865 views 收到导航请求，起点: B1-001, 目标位置: B1-067
+INFO 2025-05-16 16:16:06,429 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:16:06,431 basehttp "GET /navigate/?position=B1-067&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 16:16:06,449 basehttp "GET /static/navigation_map.html?_t=1747383366434 HTTP/1.1" 200 157467
+INFO 2025-05-16 16:26:28,617 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:26:32,386 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:26:34,672 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:26:34,805 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:26:41,050 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 16:26:45,962 views 收到导航请求，起点: B1-002, 目标位置: B1-067
+INFO 2025-05-16 16:26:52,679 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:26:52,684 basehttp "GET /navigate/?position=B1-067&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-16 16:26:52,703 basehttp "GET /static/navigation_map.html?_t=1747384012687 HTTP/1.1" 200 157243
+INFO 2025-05-16 16:27:26,911 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:27:30,606 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:27:33,257 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:27:33,418 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:27:42,882 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 16:27:46,772 views 收到导航请求，起点: B1-001, 目标位置: B1-028
+INFO 2025-05-16 16:27:53,556 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:27:53,559 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 16:27:53,579 basehttp "GET /static/navigation_map.html?_t=1747384073560 HTTP/1.1" 200 156543
+INFO 2025-05-16 16:29:32,203 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:29:32,316 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:29:38,890 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 16:29:43,169 views 收到导航请求，起点: B1-001, 目标位置: B1-028
+INFO 2025-05-16 16:29:49,811 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:29:49,814 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 16:29:49,828 basehttp "GET /static/navigation_map.html?_t=1747384189816 HTTP/1.1" 200 156543
+INFO 2025-05-16 16:31:11,805 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-16 16:31:13,491 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:31:17,811 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:31:17,921 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:31:23,527 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 16:31:27,964 views 收到导航请求，起点: B1-001, 目标位置: B1-028
+INFO 2025-05-16 16:31:34,937 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:31:34,940 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 16:31:34,957 basehttp "GET /static/navigation_map.html?_t=1747384294943 HTTP/1.1" 200 156543
+INFO 2025-05-16 16:34:26,379 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:34:28,988 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:34:49,977 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:35:25,840 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:35:29,378 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:35:29,613 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:35:39,876 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 16:35:44,351 views 收到导航请求，起点: B1-001, 目标位置: B1-067
+INFO 2025-05-16 16:35:51,159 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:35:51,162 basehttp "GET /navigate/?position=B1-067&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 16:35:51,184 basehttp "GET /static/navigation_map.html?_t=1747384551165 HTTP/1.1" 200 157467
+INFO 2025-05-16 16:46:59,274 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:46:59,428 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:47:11,425 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:47:21,278 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:47:21,378 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:47:32,250 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-16 16:47:36,354 views 收到导航请求，起点: B1-001, 目标位置: B1-028
+INFO 2025-05-16 16:47:42,997 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:47:42,999 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 16:47:43,015 basehttp "GET /static/navigation_map.html?_t=1747385263001 HTTP/1.1" 200 156543
+INFO 2025-05-16 16:51:40,440 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 16:51:42,191 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:51:45,785 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 16:51:50,990 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 16:51:51,080 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 16:51:56,071 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 16:52:00,525 views 收到导航请求，起点: B1-001, 目标位置: B1-309
+INFO 2025-05-16 16:52:07,950 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 16:52:07,951 basehttp "GET /navigate/?position=B1-309&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 16:52:07,975 basehttp "GET /static/navigation_map.html?_t=1747385527954 HTTP/1.1" 200 154088
+INFO 2025-05-16 16:59:17,766 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 17:00:07,701 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:00:07,797 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 17:00:11,084 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 17:00:14,776 views 收到导航请求，起点: B1-002, 目标位置: B1-309
+INFO 2025-05-16 17:00:22,455 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:00:22,456 basehttp "GET /navigate/?position=B1-309&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-16 17:00:22,517 basehttp "GET /static/navigation_map.html?_t=1747386022475 HTTP/1.1" 200 153823
+INFO 2025-05-16 17:04:05,268 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-16 17:04:08,859 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 17:04:36,467 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 17:04:38,236 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 17:04:41,615 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:04:41,730 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 17:04:44,872 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 17:04:48,427 views 收到导航请求，起点: B1-001, 目标位置: B1-309
+INFO 2025-05-16 17:04:55,168 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:04:55,171 basehttp "GET /navigate/?position=B1-309&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-16 17:04:55,192 basehttp "GET /static/navigation_map.html?_t=1747386295174 HTTP/1.1" 200 154088
+INFO 2025-05-16 17:08:12,837 views 收到导航请求，起点: B1-029, 目标位置: B1-309
+INFO 2025-05-16 17:08:19,351 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:08:19,353 basehttp "GET /navigate/?position=B1-309&start=B1-029 HTTP/1.1" 200 107
+INFO 2025-05-16 17:08:19,375 basehttp "GET /static/navigation_map.html?_t=1747386499357 HTTP/1.1" 200 155074
+INFO 2025-05-16 17:11:32,310 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-16 17:11:33,898 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 17:12:10,433 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 17:12:15,848 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:12:15,953 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 17:12:19,649 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 17:12:24,840 views 收到导航请求，起点: B1-002, 目标位置: B1-309
+INFO 2025-05-16 17:12:31,531 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:12:31,535 basehttp "GET /navigate/?position=B1-309&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-16 17:12:31,556 basehttp "GET /static/navigation_map.html?_t=1747386751536 HTTP/1.1" 200 153825
+INFO 2025-05-16 17:16:17,518 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-16 17:16:19,037 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 17:16:25,411 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:16:25,520 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 17:16:29,279 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 17:16:34,466 views 收到导航请求，起点: B1-029, 目标位置: B1-309
+INFO 2025-05-16 17:16:41,347 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:16:41,349 basehttp "GET /navigate/?position=B1-309&start=B1-029 HTTP/1.1" 200 107
+INFO 2025-05-16 17:16:41,367 basehttp "GET /static/navigation_map.html?_t=1747387001352 HTTP/1.1" 200 155072
+INFO 2025-05-16 17:17:13,924 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:17:14,034 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 17:17:17,142 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 17:17:27,166 views 收到导航请求，起点: B1-017, 目标位置: B1-309
+INFO 2025-05-16 17:17:33,818 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:17:33,820 basehttp "GET /navigate/?position=B1-309&start=B1-017 HTTP/1.1" 200 107
+INFO 2025-05-16 17:17:33,841 basehttp "GET /static/navigation_map.html?_t=1747387053822 HTTP/1.1" 200 155214
+INFO 2025-05-16 17:20:41,410 autoreload /home/vchip/parking/www_slim/relate/viewmap.py changed, reloading.
+INFO 2025-05-16 17:20:43,071 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 17:23:11,517 autoreload /home/vchip/parking/www_slim/app/views.py changed, reloading.
+INFO 2025-05-16 17:23:13,120 autoreload Watching for file changes with StatReloader
+INFO 2025-05-16 17:23:15,222 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:23:15,328 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 17:23:18,300 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 17:23:24,159 views 收到导航请求，起点: B1-040, 目标位置: B1-309
+INFO 2025-05-16 17:23:31,095 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:23:31,097 basehttp "GET /navigate/?position=B1-309&start=B1-040 HTTP/1.1" 200 107
+INFO 2025-05-16 17:23:31,113 basehttp "GET /static/navigation_map.html?_t=1747387411100 HTTP/1.1" 200 157303
+INFO 2025-05-16 17:26:00,510 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:26:00,784 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 17:26:06,568 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 17:26:12,176 views 收到导航请求，起点: B1-006, 目标位置: B1-309
+INFO 2025-05-16 17:26:18,366 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:26:18,369 basehttp "GET /navigate/?position=B1-309&start=B1-006 HTTP/1.1" 200 107
+INFO 2025-05-16 17:26:18,508 basehttp "GET /static/navigation_map.html?_t=1747387578795 HTTP/1.1" 200 154575
+INFO 2025-05-16 17:26:37,031 views 收到导航请求，起点: B1-060, 目标位置: B1-309
+INFO 2025-05-16 17:26:43,239 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:26:43,240 basehttp "GET /navigate/?position=B1-309&start=B1-060 HTTP/1.1" 200 107
+INFO 2025-05-16 17:26:43,430 basehttp "GET /static/navigation_map.html?_t=1747387603757 HTTP/1.1" 200 157096
+INFO 2025-05-16 17:26:56,595 basehttp "GET /static/navigation_map.html?_t=1747387616894 HTTP/1.1" 200 157096
+INFO 2025-05-16 17:47:16,437 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:47:16,591 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 200 94842
+INFO 2025-05-16 17:47:16,591 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60635
+INFO 2025-05-16 17:47:16,602 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232803
+INFO 2025-05-16 17:47:16,605 basehttp "GET /static/element-ui/index.css HTTP/1.1" 200 235010
+INFO 2025-05-16 17:47:16,606 basehttp "GET /static/js/vue.js HTTP/1.1" 200 152492
+INFO 2025-05-16 17:47:16,644 basehttp "GET /static/js/axios.js HTTP/1.1" 200 22176
+INFO 2025-05-16 17:47:16,691 basehttp "GET /static/element-ui/index.js HTTP/1.1" 200 575076
+INFO 2025-05-16 17:47:16,928 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 17:47:16,954 log Not Found: /favicon.ico
+WARNING 2025-05-16 17:47:16,954 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-16 17:48:37,194 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 17:48:58,767 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2025-05-16 17:49:03,388 views 收到导航请求，起点: B1-006, 目标位置: B1-309
+INFO 2025-05-16 17:49:09,449 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:49:09,450 basehttp "GET /navigate/?position=B1-309&start=B1-006 HTTP/1.1" 200 107
+INFO 2025-05-16 17:49:09,472 basehttp "GET /static/navigation_map.html?_t=1747388949469 HTTP/1.1" 200 154575
+INFO 2025-05-16 17:50:13,349 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:50:13,683 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-16 17:50:54,219 log Not Found: /b1-008
+WARNING 2025-05-16 17:50:54,220 basehttp "GET /b1-008 HTTP/1.1" 404 4716
+WARNING 2025-05-16 17:51:15,447 log Not Found: /B1-008
+WARNING 2025-05-16 17:51:15,448 basehttp "GET /B1-008 HTTP/1.1" 404 4716
+INFO 2025-05-16 17:51:28,806 basehttp "GET / HTTP/1.1" 200 18793
+INFO 2025-05-16 17:51:29,125 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-16 17:51:41,336 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-16 17:52:21,687 views 收到导航请求，起点: B1-007, 目标位置: B1-309
+INFO 2025-05-16 17:52:27,767 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-16 17:52:27,769 basehttp "GET /navigate/?position=B1-309&start=B1-007 HTTP/1.1" 200 107
+INFO 2025-05-16 17:52:27,795 basehttp "GET /static/navigation_map.html?_t=1747389147790 HTTP/1.1" 200 154730
+INFO 2025-05-16 17:54:15,337 basehttp "GET /static/navigation_map.html?_t=1747389255324 HTTP/1.1" 200 154730
+INFO 2025-05-19 11:06:35,145 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 11:06:43,128 basehttp "GET / HTTP/1.1" 200 18750
+WARNING 2025-05-19 11:06:43,470 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-19 11:06:43,513 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-19 11:06:43,548 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:06:43,561 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:06:43,584 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-19 11:06:43,619 log Not Found: /favicon.ico
+WARNING 2025-05-19 11:06:43,619 basehttp "GET /favicon.ico HTTP/1.1" 404 4728
+WARNING 2025-05-19 11:06:56,771 log Not Found: /b1-006
+WARNING 2025-05-19 11:06:56,772 basehttp "GET /b1-006 HTTP/1.1" 404 4713
+INFO 2025-05-19 11:08:34,589 basehttp "GET /search/b1-086/ HTTP/1.1" 200 18756
+INFO 2025-05-19 11:08:34,776 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 11:08:43,967 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-19 11:08:45,583 views 收到导航请求，起点: 669, 目标位置: B1-309
+ERROR 2025-05-19 11:08:45,584 views 起点和目标位置不在同一区域: 669 -> B1-309
+WARNING 2025-05-19 11:08:45,584 log Bad Request: /navigate/
+WARNING 2025-05-19 11:08:45,585 basehttp "GET /navigate/?position=B1-309&start=669 HTTP/1.1" 400 109
+INFO 2025-05-19 11:09:23,125 views 收到导航请求，起点: 669, 目标位置: B1-309
+ERROR 2025-05-19 11:09:23,125 views 起点和目标位置不在同一区域: 669 -> B1-309
+WARNING 2025-05-19 11:09:23,126 log Bad Request: /navigate/
+WARNING 2025-05-19 11:09:23,126 basehttp "GET /navigate/?position=B1-309&start=669 HTTP/1.1" 400 109
+INFO 2025-05-19 11:10:59,604 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 11:11:01,131 basehttp "GET /search/b1-086/ HTTP/1.1" 200 18799
+INFO 2025-05-19 11:11:01,246 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 11:11:06,757 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-19 11:11:19,425 basehttp "GET /search/b1-086/ HTTP/1.1" 200 18799
+INFO 2025-05-19 11:11:19,512 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 11:11:25,280 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-19 11:13:42,778 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 11:13:46,391 basehttp "GET /search/b1-086/ HTTP/1.1" 200 17884
+INFO 2025-05-19 11:13:46,490 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 11:13:49,258 basehttp "GET /search/b1-086/ HTTP/1.1" 200 17884
+INFO 2025-05-19 11:13:49,334 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 11:13:58,638 basehttp "GET / HTTP/1.1" 200 17878
+WARNING 2025-05-19 11:13:58,916 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-19 11:13:58,947 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 11:13:58,970 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:13:58,975 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-19 11:13:59,007 log Not Found: /favicon.ico
+WARNING 2025-05-19 11:13:59,008 basehttp "GET /favicon.ico HTTP/1.1" 404 4728
+WARNING 2025-05-19 11:13:59,010 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:14:02,919 basehttp "GET /search/b1-086/ HTTP/1.1" 200 17884
+INFO 2025-05-19 11:14:03,073 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:14:37,682 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-19 11:14:37,784 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-19 11:14:37,788 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:15:51,251 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 11:15:53,500 basehttp "GET /search/b1-086/ HTTP/1.1" 200 16603
+WARNING 2025-05-19 11:15:53,666 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-19 11:15:53,711 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 11:15:53,803 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:15:53,840 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:16:00,215 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-19 11:16:03,127 views 收到导航请求，起点: B1-086, 目标位置: B1-309
+INFO 2025-05-19 11:16:10,193 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:16:10,194 basehttp "GET /navigate/?position=B1-309&start=B1-086 HTTP/1.1" 200 107
+INFO 2025-05-19 11:16:10,218 basehttp "GET /static/navigation_map.html?_t=1747624570198 HTTP/1.1" 200 156340
+WARNING 2025-05-19 11:16:53,666 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-19 11:16:53,712 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-19 11:16:53,716 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:19:36,604 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 11:19:41,028 basehttp "GET /search/b1-086/ HTTP/1.1" 200 17810
+WARNING 2025-05-19 11:19:41,156 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-19 11:19:41,214 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 11:19:41,323 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:19:41,328 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:19:45,284 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-19 11:19:46,672 views 收到导航请求，起点: B1-086, 目标位置: B1-309
+INFO 2025-05-19 11:19:53,619 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:19:53,622 basehttp "GET /navigate/?position=B1-309&start=B1-086 HTTP/1.1" 200 107
+INFO 2025-05-19 11:19:53,648 basehttp "GET /static/navigation_map.html?_t=1747624793627 HTTP/1.1" 200 156340
+INFO 2025-05-19 11:20:00,774 views 收到导航请求，起点: B1-012, 目标位置: B1-309
+INFO 2025-05-19 11:20:07,390 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:20:07,391 basehttp "GET /navigate/?position=B1-309&start=B1-012 HTTP/1.1" 200 107
+INFO 2025-05-19 11:20:07,446 basehttp "GET /static/navigation_map.html?_t=1747624807434 HTTP/1.1" 200 154948
+INFO 2025-05-19 11:20:19,439 basehttp "GET / HTTP/1.1" 200 17804
+WARNING 2025-05-19 11:20:19,601 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-19 11:20:19,643 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 11:20:19,757 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:20:19,758 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:20:23,240 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-19 11:21:50,684 basehttp "GET / HTTP/1.1" 200 17892
+WARNING 2025-05-19 11:21:50,789 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-19 11:21:50,861 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 11:21:50,946 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:21:50,965 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:21:56,250 basehttp "GET / HTTP/1.1" 200 17892
+WARNING 2025-05-19 11:21:56,379 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-19 11:21:56,397 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 11:21:56,460 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:21:56,484 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:24:17,194 basehttp "GET / HTTP/1.1" 200 17738
+WARNING 2025-05-19 11:24:17,282 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-19 11:24:17,343 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 11:24:17,404 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:24:17,444 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:24:20,570 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-19 11:24:25,289 views 收到导航请求，起点: B1-004, 目标位置: B1-309
+INFO 2025-05-19 11:24:32,049 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:24:32,052 basehttp "GET /navigate/?position=B1-309&start=B1-004 HTTP/1.1" 200 107
+INFO 2025-05-19 11:24:32,072 basehttp "GET /static/navigation_map.html?_t=1747625072055 HTTP/1.1" 200 153776
+INFO 2025-05-19 11:24:38,488 views 收到导航请求，起点: B1-049, 目标位置: B1-309
+INFO 2025-05-19 11:24:44,952 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:24:44,953 basehttp "GET /navigate/?position=B1-309&start=B1-049 HTTP/1.1" 200 107
+INFO 2025-05-19 11:24:45,010 basehttp "GET /static/navigation_map.html?_t=1747625084996 HTTP/1.1" 200 156543
+INFO 2025-05-19 11:24:54,226 basehttp "GET /search/b1-086/ HTTP/1.1" 200 17744
+WARNING 2025-05-19 11:24:54,379 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-19 11:24:54,462 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 11:24:54,512 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:24:54,540 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-19 11:24:57,496 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-19 11:24:58,601 views 收到导航请求，起点: B1-086, 目标位置: B1-309
+INFO 2025-05-19 11:25:05,211 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:25:05,214 basehttp "GET /navigate/?position=B1-309&start=B1-086 HTTP/1.1" 200 107
+INFO 2025-05-19 11:25:05,231 basehttp "GET /static/navigation_map.html?_t=1747625105216 HTTP/1.1" 200 156340
+INFO 2025-05-19 11:25:08,145 basehttp "GET /static/navigation_map.html?_t=1747625108133 HTTP/1.1" 200 156340
+INFO 2025-05-19 11:25:15,723 views 收到导航请求，起点: B1-001, 目标位置: B1-309
+INFO 2025-05-19 11:25:22,218 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:25:22,222 basehttp "GET /navigate/?position=B1-309&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 11:25:22,241 basehttp "GET /static/navigation_map.html?_t=1747625122225 HTTP/1.1" 200 154088
+INFO 2025-05-19 11:44:58,626 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 11:45:01,447 basehttp "GET /search/b1-120 HTTP/1.1" 301 0
+INFO 2025-05-19 11:45:01,461 basehttp "GET /search/b1-120/ HTTP/1.1" 200 17744
+INFO 2025-05-19 11:45:01,686 basehttp "GET /static/element-ui/index.js HTTP/1.1" 200 575076
+INFO 2025-05-19 11:45:01,828 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 11:45:01,876 log Not Found: /favicon.ico
+WARNING 2025-05-19 11:45:01,876 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-19 11:45:05,283 basehttp "GET /search/b1-120/ HTTP/1.1" 200 17744
+INFO 2025-05-19 11:45:05,447 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 11:45:13,701 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-19 11:45:14,990 views 收到导航请求，起点: B1-120, 目标位置: B1-067
+INFO 2025-05-19 11:45:21,415 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:45:21,416 basehttp "GET /navigate/?position=B1-067&start=B1-120 HTTP/1.1" 200 107
+INFO 2025-05-19 11:45:21,554 basehttp "GET /static/navigation_map.html?_t=1747626321934 HTTP/1.1" 200 156207
+INFO 2025-05-19 11:46:15,595 views 收到导航请求，起点: B1-040, 目标位置: B1-067
+INFO 2025-05-19 11:46:21,639 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:46:21,641 basehttp "GET /navigate/?position=B1-067&start=B1-040 HTTP/1.1" 200 107
+INFO 2025-05-19 11:46:21,778 basehttp "GET /static/navigation_map.html?_t=1747626382150 HTTP/1.1" 200 155124
+INFO 2025-05-19 11:46:38,129 views 收到导航请求，起点: B1-002, 目标位置: B1-067
+INFO 2025-05-19 11:46:44,308 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 11:46:44,310 basehttp "GET /navigate/?position=B1-067&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-19 11:46:44,380 basehttp "GET /static/navigation_map.html?_t=1747626404754 HTTP/1.1" 200 157243
+INFO 2025-05-19 14:25:37,423 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 14:25:37,709 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 14:26:32,090 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 14:26:32,128 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232803
+INFO 2025-05-19 14:26:32,130 basehttp "GET /static/element-ui/index.css HTTP/1.1" 200 235010
+INFO 2025-05-19 14:26:32,131 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 200 94842
+INFO 2025-05-19 14:26:32,143 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60635
+INFO 2025-05-19 14:26:32,151 basehttp "GET /static/js/vue.js HTTP/1.1" 200 152492
+INFO 2025-05-19 14:26:32,153 basehttp "GET /static/js/axios.js HTTP/1.1" 200 22176
+INFO 2025-05-19 14:26:32,157 basehttp "GET /static/element-ui/index.js HTTP/1.1" 200 575076
+INFO 2025-05-19 14:26:32,318 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+WARNING 2025-05-19 14:26:32,353 log Not Found: /favicon.ico
+WARNING 2025-05-19 14:26:32,353 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-19 14:27:06,227 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 14:27:28,985 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 14:27:29,022 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 14:28:49,553 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 14:28:49,941 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 14:29:21,285 basehttp - Broken pipe from ('192.168.1.10', 40828)
+INFO 2025-05-19 14:29:21,285 basehttp - Broken pipe from ('192.168.1.10', 40842)
+INFO 2025-05-19 14:30:07,023 basehttp "GET /api/search-by-plate/?plate=12G HTTP/1.1" 200 25
+INFO 2025-05-19 14:30:08,751 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B3 HTTP/1.1" 200 302
+INFO 2025-05-19 14:30:15,351 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-19 14:30:25,134 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-19 14:30:30,005 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 14:30:44,983 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 14:31:05,013 views 收到导航请求，起点: B1-060, 目标位置: B1-068
+INFO 2025-05-19 14:31:11,177 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 14:31:11,178 basehttp "GET /navigate/?position=B1-068&start=B1-060 HTTP/1.1" 200 107
+INFO 2025-05-19 14:31:11,301 basehttp "GET /static/navigation_map.html?_t=1747636271180 HTTP/1.1" 200 156417
+WARNING 2025-05-19 14:31:26,843 log Not Found: /B1-008
+WARNING 2025-05-19 14:31:26,844 basehttp "GET /B1-008 HTTP/1.1" 404 4716
+WARNING 2025-05-19 14:31:28,275 log Not Found: /B1-008
+WARNING 2025-05-19 14:31:28,276 basehttp "GET /B1-008 HTTP/1.1" 404 4716
+WARNING 2025-05-19 14:31:29,272 log Not Found: /B1-008
+WARNING 2025-05-19 14:31:29,272 basehttp "GET /B1-008 HTTP/1.1" 404 4716
+WARNING 2025-05-19 14:31:30,241 log Not Found: /b1-008
+WARNING 2025-05-19 14:31:30,242 basehttp "GET /b1-008 HTTP/1.1" 404 4716
+INFO 2025-05-19 14:31:37,080 basehttp - Broken pipe from ('192.168.1.4', 63032)
+INFO 2025-05-19 14:35:09,835 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 14:35:11,533 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2025-05-19 14:35:17,241 views 收到导航请求，起点: B1-018, 目标位置: B1-068
+INFO 2025-05-19 14:35:24,248 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 14:35:24,250 basehttp "GET /navigate/?position=B1-068&start=B1-018 HTTP/1.1" 200 107
+INFO 2025-05-19 14:35:24,279 basehttp "GET /static/navigation_map.html?_t=1747636524245 HTTP/1.1" 200 156410
+INFO 2025-05-19 14:47:14,038 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 14:47:14,314 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 14:47:51,743 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 14:48:08,159 views 收到导航请求，起点: B1-090, 目标位置: B1-068
+INFO 2025-05-19 14:48:14,831 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 14:48:14,833 basehttp "GET /navigate/?position=B1-068&start=B1-090 HTTP/1.1" 200 107
+INFO 2025-05-19 14:48:14,852 basehttp "GET /static/navigation_map.html?_t=1747637294826 HTTP/1.1" 200 155884
+INFO 2025-05-19 14:48:37,433 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 14:48:37,698 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 14:48:48,791 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 14:48:55,016 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 14:49:01,552 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 14:49:01,553 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 14:49:01,576 basehttp "GET /static/navigation_map.html?_t=1747637341547 HTTP/1.1" 200 157274
+INFO 2025-05-19 14:50:39,967 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 14:50:40,224 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 14:51:35,732 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 14:52:06,380 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 14:52:12,887 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 14:52:12,888 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 14:52:12,906 basehttp "GET /static/navigation_map.html?_t=1747637532881 HTTP/1.1" 200 157477
+INFO 2025-05-19 14:53:07,991 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 14:53:11,611 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-19 14:53:14,114 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2025-05-19 14:53:17,531 views 收到导航请求，起点: B1-001, 目标位置: B1-207
+INFO 2025-05-19 14:53:24,130 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 14:53:24,134 basehttp "GET /navigate/?position=B1-207&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 14:53:24,151 basehttp "GET /static/navigation_map.html?_t=1747637604136 HTTP/1.1" 200 154198
+INFO 2025-05-19 16:01:37,314 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 16:01:42,097 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 16:01:42,232 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 16:01:48,251 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:01:53,652 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 16:02:00,332 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:02:00,334 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 16:02:00,360 basehttp "GET /static/navigation_map.html?_t=1747641720338 HTTP/1.1" 200 159232
+INFO 2025-05-19 16:12:54,776 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 16:12:54,849 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 16:12:58,473 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:13:02,693 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 16:13:09,196 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:13:09,198 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 16:13:09,217 basehttp "GET /static/navigation_map.html?_t=1747642389201 HTTP/1.1" 200 159224
+INFO 2025-05-19 16:14:21,172 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 16:14:23,213 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 16:14:23,325 basehttp "GET /api/location-options/ HTTP/1.1" 200 5795
+INFO 2025-05-19 16:14:27,536 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:14:32,615 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 16:14:39,465 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:14:39,466 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 16:14:39,489 basehttp "GET /static/navigation_map.html?_t=1747642479469 HTTP/1.1" 200 159229
+INFO 2025-05-19 16:16:38,363 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 16:16:44,328 basehttp "GET / HTTP/1.1" 200 17738
+INFO 2025-05-19 16:16:44,399 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 16:16:50,027 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:17:22,430 views 收到导航请求，起点: B1-02电梯厅, 目标位置: B1-068
+INFO 2025-05-19 16:17:29,098 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:17:29,102 basehttp "GET /navigate/?position=B1-068&start=B1-02%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-19 16:17:29,127 basehttp "GET /static/navigation_map.html?_t=1747642649106 HTTP/1.1" 200 158186
+INFO 2025-05-19 16:18:34,863 basehttp "GET /search/b1-02%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 301 0
+INFO 2025-05-19 16:18:34,869 basehttp "GET /search/b1-02%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 17752
+INFO 2025-05-19 16:18:34,951 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 16:18:40,147 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:18:41,424 views 收到导航请求，起点: B1-02%E7%94%B5%E6%A2%AF%E5%8E%85, 目标位置: B1-068
+INFO 2025-05-19 16:18:46,038 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:18:46,039 basehttp "GET /navigate/?position=B1-068&start=B1-02%25E7%2594%25B5%25E6%25A2%25AF%25E5%258E%2585 HTTP/1.1" 200 133
+INFO 2025-05-19 16:18:46,056 basehttp "GET /static/navigation_map.html?_t=1747642726042 HTTP/1.1" 200 151798
+INFO 2025-05-19 16:19:05,687 basehttp "GET /search/B1-02%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 17752
+INFO 2025-05-19 16:19:05,816 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 16:19:09,364 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:19:10,553 views 收到导航请求，起点: B1-02%E7%94%B5%E6%A2%AF%E5%8E%85, 目标位置: B1-068
+INFO 2025-05-19 16:19:15,140 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:19:15,141 basehttp "GET /navigate/?position=B1-068&start=B1-02%25E7%2594%25B5%25E6%25A2%25AF%25E5%258E%2585 HTTP/1.1" 200 133
+INFO 2025-05-19 16:19:15,156 basehttp "GET /static/navigation_map.html?_t=1747642755144 HTTP/1.1" 200 151798
+INFO 2025-05-19 16:19:32,935 basehttp "GET /search/B1-024 HTTP/1.1" 301 0
+INFO 2025-05-19 16:19:32,939 basehttp "GET /search/B1-024/ HTTP/1.1" 200 17744
+INFO 2025-05-19 16:19:33,019 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 16:19:38,486 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:19:39,595 views 收到导航请求，起点: B1-024, 目标位置: B1-068
+INFO 2025-05-19 16:19:46,052 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:19:46,054 basehttp "GET /navigate/?position=B1-068&start=B1-024 HTTP/1.1" 200 107
+INFO 2025-05-19 16:19:46,074 basehttp "GET /static/navigation_map.html?_t=1747642786057 HTTP/1.1" 200 158023
+INFO 2025-05-19 16:21:01,624 basehttp "GET /search/B1-02%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 17752
+INFO 2025-05-19 16:21:01,739 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 16:21:05,505 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:21:10,630 views 收到导航请求，起点: B1-02%E7%94%B5%E6%A2%AF%E5%8E%85, 目标位置: B1-068
+INFO 2025-05-19 16:21:15,345 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:21:15,346 basehttp "GET /navigate/?position=B1-068&start=B1-02%25E7%2594%25B5%25E6%25A2%25AF%25E5%258E%2585 HTTP/1.1" 200 133
+INFO 2025-05-19 16:21:15,369 basehttp "GET /static/navigation_map.html?_t=1747642875350 HTTP/1.1" 200 151798
+INFO 2025-05-19 16:23:23,912 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 16:23:27,645 basehttp "GET /search/B1-02%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 17816
+INFO 2025-05-19 16:23:37,973 basehttp "GET /search/B1-02%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 17816
+WARNING 2025-05-19 16:24:36,629 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1911
+WARNING 2025-05-19 16:24:36,629 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1932
+WARNING 2025-05-19 16:24:36,634 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1938
+INFO 2025-05-19 16:24:58,494 basehttp "GET /search/B1-02%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 17812
+WARNING 2025-05-19 16:24:58,619 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1938
+WARNING 2025-05-19 16:24:58,682 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1932
+INFO 2025-05-19 16:24:58,724 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+WARNING 2025-05-19 16:24:58,743 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1911
+INFO 2025-05-19 16:25:04,651 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:25:05,784 views 收到导航请求，起点: B1-02电梯厅, 目标位置: B1-068
+INFO 2025-05-19 16:25:12,822 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:25:12,826 basehttp "GET /navigate/?position=B1-068&start=B1-02%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-19 16:25:12,858 basehttp "GET /static/navigation_map.html?_t=1747643112827 HTTP/1.1" 200 158186
+INFO 2025-05-19 16:25:36,576 basehttp "GET /search/B1-02%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 17812
+WARNING 2025-05-19 16:25:36,696 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1938
+WARNING 2025-05-19 16:25:36,748 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1932
+INFO 2025-05-19 16:25:36,792 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+WARNING 2025-05-19 16:25:36,805 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1911
+INFO 2025-05-19 16:25:40,120 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:25:41,281 views 收到导航请求，起点: B1-02电梯厅, 目标位置: B1-068
+INFO 2025-05-19 16:25:47,955 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:25:47,958 basehttp "GET /navigate/?position=B1-068&start=B1-02%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-19 16:25:47,999 basehttp "GET /static/navigation_map.html?_t=1747643147963 HTTP/1.1" 200 158186
+INFO 2025-05-19 16:28:11,127 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 16:28:13,274 basehttp "GET /search/B1-02%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18256
+INFO 2025-05-19 16:28:13,370 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 16:28:22,958 basehttp "GET /search/B1-02%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18256
+INFO 2025-05-19 16:28:23,031 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 16:28:32,992 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:28:34,206 views 收到导航请求，起点: B1-02电梯厅, 目标位置: B1-068
+INFO 2025-05-19 16:28:40,989 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:28:40,995 basehttp "GET /navigate/?position=B1-068&start=B1-02%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-19 16:28:41,014 basehttp "GET /static/navigation_map.html?_t=1747643320999 HTTP/1.1" 200 158186
+INFO 2025-05-19 16:29:45,810 views 收到导航请求，起点: B2-101, 目标位置: B1-068
+ERROR 2025-05-19 16:29:45,811 views 起点和目标位置不在同一区域: B2-101 -> B1-068
+WARNING 2025-05-19 16:29:45,812 log Bad Request: /navigate/
+WARNING 2025-05-19 16:29:45,812 basehttp "GET /navigate/?position=B1-068&start=B2-101 HTTP/1.1" 400 109
+INFO 2025-05-19 16:54:13,932 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 16:54:21,404 basehttp "GET / HTTP/1.1" 200 17753
+WARNING 2025-05-19 16:54:21,645 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-19 16:54:21,673 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 16:54:21,703 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+WARNING 2025-05-19 16:54:21,720 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-19 16:54:21,767 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-19 16:54:21,784 log Not Found: /favicon.ico
+WARNING 2025-05-19 16:54:21,786 basehttp "GET /favicon.ico HTTP/1.1" 404 4728
+INFO 2025-05-19 16:54:26,113 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:54:40,643 views 收到导航请求，起点: B1-100, 目标位置: B1-068
+INFO 2025-05-19 16:54:47,555 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:54:47,557 basehttp "GET /navigate/?position=B1-068&start=B1-100 HTTP/1.1" 200 107
+INFO 2025-05-19 16:54:47,579 basehttp "GET /static/navigation_map.html?_t=1747644887560 HTTP/1.1" 200 158291
+INFO 2025-05-19 16:55:15,875 views 收到导航请求，起点: B1-004, 目标位置: B1-068
+INFO 2025-05-19 16:55:22,426 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:55:22,427 basehttp "GET /navigate/?position=B1-068&start=B1-004 HTTP/1.1" 200 107
+INFO 2025-05-19 16:55:22,478 basehttp "GET /static/navigation_map.html?_t=1747644922469 HTTP/1.1" 200 159322
+INFO 2025-05-19 16:55:37,694 basehttp "GET /search/b1-086/ HTTP/1.1" 200 17759
+INFO 2025-05-19 16:55:37,859 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 16:55:41,759 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 16:55:43,301 views 收到导航请求，起点: B1-086, 目标位置: B1-068
+INFO 2025-05-19 16:55:49,930 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:55:49,932 basehttp "GET /navigate/?position=B1-068&start=b1-086 HTTP/1.1" 200 107
+INFO 2025-05-19 16:55:49,954 basehttp "GET /static/navigation_map.html?_t=1747644949936 HTTP/1.1" 200 157949
+INFO 2025-05-19 16:55:59,109 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-068
+INFO 2025-05-19 16:56:05,727 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 16:56:05,731 basehttp "GET /navigate/?position=B1-068&start=B1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-19 16:56:05,753 basehttp "GET /static/navigation_map.html?_t=1747644965733 HTTP/1.1" 200 160106
+INFO 2025-05-19 17:04:02,655 autoreload Watching for file changes with StatReloader
+INFO 2025-05-19 17:04:09,915 basehttp "GET / HTTP/1.1" 200 18422
+WARNING 2025-05-19 17:04:10,181 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-19 17:04:10,204 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-19 17:04:10,263 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+WARNING 2025-05-19 17:04:10,281 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-19 17:04:10,303 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-19 17:04:10,319 log Not Found: /favicon.ico
+WARNING 2025-05-19 17:04:10,320 basehttp "GET /favicon.ico HTTP/1.1" 404 4728
+INFO 2025-05-19 17:04:14,386 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:04:18,586 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:04:25,559 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:04:25,560 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:04:25,578 basehttp "GET /static/navigation_map.html?_t=1747645465562 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:04:32,808 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:04:39,723 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:04:39,724 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:04:39,749 basehttp "GET /static/navigation_map.html?_t=1747645479727 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:04:53,843 views 收到导航请求，起点: B1-100, 目标位置: B1-068
+INFO 2025-05-19 17:05:00,569 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:05:00,570 basehttp "GET /navigate/?position=B1-068&start=B1-100 HTTP/1.1" 200 107
+INFO 2025-05-19 17:05:00,585 basehttp "GET /static/navigation_map.html?_t=1747645500573 HTTP/1.1" 200 158291
+INFO 2025-05-19 17:05:12,180 basehttp "GET /search/b1-086/ HTTP/1.1" 200 18428
+INFO 2025-05-19 17:05:12,360 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:05:16,343 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:05:17,429 views 收到导航请求，起点: B1-086, 目标位置: B1-068
+INFO 2025-05-19 17:05:19,679 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:05:24,285 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:05:24,287 basehttp "GET /navigate/?position=B1-068&start=b1-086 HTTP/1.1" 200 107
+INFO 2025-05-19 17:05:24,309 basehttp "GET /static/navigation_map.html?_t=1747645524290 HTTP/1.1" 200 157949
+INFO 2025-05-19 17:05:33,871 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:05:39,377 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 301 0
+INFO 2025-05-19 17:05:39,394 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18436
+INFO 2025-05-19 17:05:39,558 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:05:40,962 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:05:40,964 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:05:40,984 basehttp "GET /static/navigation_map.html?_t=1747645540964 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:05:45,785 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-19 17:05:47,077 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-309
+INFO 2025-05-19 17:05:53,993 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:05:53,995 basehttp "GET /navigate/?position=B1-309&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-19 17:05:54,011 basehttp "GET /static/navigation_map.html?_t=1747645553997 HTTP/1.1" 200 156085
+INFO 2025-05-19 17:06:15,254 views 收到导航请求，起点: B1-003, 目标位置: B1-309
+INFO 2025-05-19 17:06:21,829 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:06:21,831 basehttp "GET /navigate/?position=B1-309&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-19 17:06:21,885 basehttp "GET /static/navigation_map.html?_t=1747645581873 HTTP/1.1" 200 156510
+INFO 2025-05-19 17:06:23,419 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:06:23,668 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:06:29,277 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:06:29,515 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:07:00,121 views 收到导航请求，起点: B1-观光电梯, 目标位置: B1-309
+INFO 2025-05-19 17:07:06,655 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:07:06,656 basehttp "GET /navigate/?position=B1-309&start=B1-%E8%A7%82%E5%85%89%E7%94%B5%E6%A2%AF HTTP/1.1" 200 128
+INFO 2025-05-19 17:07:06,679 basehttp "GET /static/navigation_map.html?_t=1747645626659 HTTP/1.1" 200 157243
+INFO 2025-05-19 17:08:09,429 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:08:17,835 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:08:24,286 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:08:24,287 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:08:24,319 basehttp "GET /static/navigation_map.html?_t=1747645704298 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:09:35,916 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:09:36,164 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:10:23,221 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:10:32,017 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:10:38,514 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:10:38,515 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:10:38,531 basehttp "GET /static/navigation_map.html?_t=1747645838532 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:11:17,187 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:11:17,401 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:11:43,586 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:11:43,772 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:11:47,391 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:11:47,596 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:12:02,958 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:12:12,462 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:12:18,944 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:12:18,945 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:12:18,969 basehttp "GET /static/navigation_map.html?_t=1747645938962 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:12:39,508 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:12:39,711 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:12:54,285 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:13:02,595 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:13:09,843 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:13:09,844 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:13:09,870 basehttp "GET /static/navigation_map.html?_t=1747645989864 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:14:47,490 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:14:47,729 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:15:02,022 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:15:02,259 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:15:11,282 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:15:13,383 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:15:14,668 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:15:22,811 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:15:22,812 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:15:22,847 basehttp "GET /static/navigation_map.html?_t=1747646122840 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:15:27,432 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:15:27,434 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:15:27,475 basehttp "GET /static/navigation_map.html?_t=1747646127458 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:15:31,285 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:15:31,495 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:15:45,598 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:15:57,040 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:16:03,550 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:16:03,551 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:16:03,571 basehttp "GET /static/navigation_map.html?_t=1747646163578 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:17:28,464 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:17:28,702 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:17:51,345 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-19 17:18:36,746 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-19 17:18:43,538 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-19 17:18:43,540 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-19 17:18:43,569 basehttp "GET /static/navigation_map.html?_t=1747646323577 HTTP/1.1" 200 159229
+INFO 2025-05-19 17:22:53,039 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:22:53,258 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-19 17:31:36,945 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-19 17:31:51,208 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-20 12:15:21,132 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-05-20 12:15:21,133 basehttp "GET /static/element-ui/index.css HTTP/1.1" 304 0
+INFO 2025-05-20 12:15:21,137 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 12:15:21,139 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 12:15:21,141 basehttp "GET /static/js/axios.js HTTP/1.1" 304 0
+INFO 2025-05-20 12:15:21,377 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+WARNING 2025-05-20 12:15:21,422 log Not Found: /favicon.ico
+WARNING 2025-05-20 12:15:21,423 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-20 14:32:38,625 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18436
+INFO 2025-05-20 14:32:38,688 basehttp "GET /static/element-ui/index.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:32:38,690 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:32:38,696 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:32:38,699 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:32:38,701 basehttp "GET /static/element-ui/index.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:32:38,704 basehttp "GET /static/js/axios.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:32:38,846 basehttp "GET /api/location-options/ HTTP/1.1" 200 5934
+INFO 2025-05-20 14:33:30,513 autoreload Watching for file changes with StatReloader
+INFO 2025-05-20 14:33:32,170 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18436
+INFO 2025-05-20 14:33:32,292 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 14:33:44,349 basehttp "GET /search/b2-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18436
+INFO 2025-05-20 14:33:44,458 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 14:33:58,734 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-20 14:34:00,953 views 收到导航请求，起点: B2-01电梯厅, 目标位置: B2-071
+INFO 2025-05-20 14:34:00,957 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2025-05-20 14:34:08,245 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 14:34:08,247 basehttp "GET /navigate/?position=B2-071&start=b2-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 14:34:08,272 basehttp "GET /static/navigation_map.html?_t=1747722848251 HTTP/1.1" 200 165188
+INFO 2025-05-20 14:34:27,893 views 收到导航请求，起点: B2-02电梯厅, 目标位置: B2-071
+INFO 2025-05-20 14:34:34,940 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 14:34:34,942 basehttp "GET /navigate/?position=B2-071&start=B2-02%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 14:34:34,993 basehttp "GET /static/navigation_map.html?_t=1747722874984 HTTP/1.1" 200 164897
+INFO 2025-05-20 14:34:47,951 views 收到导航请求，起点: B2-03电梯厅, 目标位置: B2-071
+INFO 2025-05-20 14:34:55,054 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 14:34:55,056 basehttp "GET /navigate/?position=B2-071&start=B2-03%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 14:34:55,075 basehttp "GET /static/navigation_map.html?_t=1747722895058 HTTP/1.1" 200 166100
+INFO 2025-05-20 14:35:13,094 views 收到导航请求，起点: B2-04电梯厅, 目标位置: B2-071
+INFO 2025-05-20 14:35:20,047 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 14:35:20,050 basehttp "GET /navigate/?position=B2-071&start=B2-04%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 14:35:20,067 basehttp "GET /static/navigation_map.html?_t=1747722920054 HTTP/1.1" 200 165855
+INFO 2025-05-20 14:35:39,656 views 收到导航请求，起点: B2-观光电梯, 目标位置: B2-071
+INFO 2025-05-20 14:35:46,682 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 14:35:46,684 basehttp "GET /navigate/?position=B2-071&start=B2-%E8%A7%82%E5%85%89%E7%94%B5%E6%A2%AF HTTP/1.1" 200 128
+INFO 2025-05-20 14:35:46,704 basehttp "GET /static/navigation_map.html?_t=1747722946688 HTTP/1.1" 200 165390
+INFO 2025-05-20 14:42:26,095 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 14:42:29,140 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-20 14:42:29,162 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:42:29,170 basehttp "GET /static/element-ui/index.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:42:29,172 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:42:29,174 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:42:29,178 basehttp "GET /static/js/axios.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:42:29,178 basehttp "GET /static/element-ui/index.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:42:29,209 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 14:42:33,266 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-20 14:42:33,301 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 14:42:46,027 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-20 14:42:58,223 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-20 14:42:58,261 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 14:43:06,346 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-20 14:43:09,194 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2025-05-20 14:44:17,034 views 收到导航请求，起点: B1-04电梯厅, 目标位置: B1-028
+INFO 2025-05-20 14:44:23,201 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 14:44:23,204 basehttp "GET /navigate/?position=B1-028&start=B1-04%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 14:44:23,451 basehttp "GET /static/navigation_map.html?_t=1747723463355 HTTP/1.1" 200 157377
+INFO 2025-05-20 14:45:16,189 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-20 14:45:16,253 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 14:45:31,178 basehttp "GET / HTTP/1.1" 200 18422
+INFO 2025-05-20 14:45:31,218 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-20 17:41:38,764 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-20 17:41:38,787 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-20 17:41:38,803 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-20 17:44:44,891 autoreload Watching for file changes with StatReloader
+INFO 2025-05-20 17:44:47,880 basehttp "GET /search/b2-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+WARNING 2025-05-20 17:44:48,025 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-20 17:44:48,078 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-20 17:44:48,191 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-20 17:44:48,194 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-20 17:44:55,089 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B2 HTTP/1.1" 200 489
+INFO 2025-05-20 17:44:59,677 views 收到导航请求，起点: B2-01电梯厅, 目标位置: B2-071
+INFO 2025-05-20 17:45:07,340 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 17:45:07,342 basehttp "GET /navigate/?position=B2-071&start=b2-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 17:45:07,362 basehttp "GET /static/navigation_map.html?_t=1747734307346 HTTP/1.1" 200 165188
+INFO 2025-05-20 17:45:24,461 views 收到导航请求，起点: B2-02电梯厅, 目标位置: B2-071
+INFO 2025-05-20 17:45:31,346 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 17:45:31,347 basehttp "GET /navigate/?position=B2-071&start=B2-02%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 17:45:31,408 basehttp "GET /static/navigation_map.html?_t=1747734331389 HTTP/1.1" 200 164897
+INFO 2025-05-20 17:48:17,380 views 收到导航请求，起点: B2-03电梯厅, 目标位置: B2-071
+INFO 2025-05-20 17:48:24,340 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 17:48:24,342 basehttp "GET /navigate/?position=B2-071&start=B2-03%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 17:48:24,368 basehttp "GET /static/navigation_map.html?_t=1747734504346 HTTP/1.1" 200 166100
+INFO 2025-05-20 17:48:43,858 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-20 17:49:02,139 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-20 17:49:02,250 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 17:49:05,012 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-20 17:49:05,057 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 17:49:14,313 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-20 17:49:51,938 views 收到导航请求，起点: B1-04电梯厅, 目标位置: B1-122
+INFO 2025-05-20 17:49:58,438 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 17:49:58,440 basehttp "GET /navigate/?position=B1-122&start=B1-04%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 17:49:58,529 basehttp "GET /static/navigation_map.html?_t=1747734598399 HTTP/1.1" 200 158337
+INFO 2025-05-20 17:50:02,057 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-20 17:50:02,103 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 17:50:03,870 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-20 17:50:03,916 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 17:50:07,931 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-20 17:50:07,981 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 17:50:16,306 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-20 17:50:56,397 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-20 17:50:56,445 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-20 17:52:45,933 views 收到导航请求，起点: B2-04电梯厅, 目标位置: B2-071
+INFO 2025-05-20 17:52:52,960 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 17:52:52,962 basehttp "GET /navigate/?position=B2-071&start=B2-04%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 17:52:52,982 basehttp "GET /static/navigation_map.html?_t=1747734772965 HTTP/1.1" 200 165855
+INFO 2025-05-20 17:53:10,710 basehttp "GET /search/b2-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+WARNING 2025-05-20 17:53:10,819 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-20 17:53:10,902 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-20 17:53:10,976 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-20 17:53:10,988 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-20 17:53:19,196 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+WARNING 2025-05-20 17:53:19,340 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-20 17:53:19,389 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-20 17:53:19,483 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-20 17:53:19,485 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-20 17:53:32,263 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-20 17:53:46,649 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-067
+INFO 2025-05-20 17:53:53,199 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 17:53:53,201 basehttp "GET /navigate/?position=B1-067&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-20 17:53:53,229 basehttp "GET /static/navigation_map.html?_t=1747734833204 HTTP/1.1" 200 161111
+INFO 2025-05-20 17:56:08,400 views 收到导航请求，起点: B1-025, 目标位置: B1-067
+INFO 2025-05-20 17:56:14,828 views 导航地图生成成功: /home/vchip/parking/www_slim/static/navigation_map.html
+INFO 2025-05-20 17:56:14,830 basehttp "GET /navigate/?position=B1-067&start=B1-025 HTTP/1.1" 200 107
+INFO 2025-05-20 17:56:14,852 basehttp "GET /static/navigation_map.html?_t=1747734974833 HTTP/1.1" 200 158141
+INFO 2025-05-21 10:27:40,717 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 10:27:48,550 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-21 10:27:48,579 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232803
+INFO 2025-05-21 10:27:48,605 basehttp "GET /static/js/axios.js HTTP/1.1" 200 22176
+INFO 2025-05-21 10:27:48,612 basehttp "GET /static/element-ui/index.css HTTP/1.1" 200 235010
+INFO 2025-05-21 10:27:48,614 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 200 94842
+INFO 2025-05-21 10:27:48,620 basehttp "GET /static/js/vue.js HTTP/1.1" 200 152492
+INFO 2025-05-21 10:27:48,623 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60635
+INFO 2025-05-21 10:27:48,632 basehttp "GET /static/element-ui/index.js HTTP/1.1" 200 575076
+WARNING 2025-05-21 10:27:48,796 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-21 10:27:48,840 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-21 10:27:48,864 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-21 10:27:48,877 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-21 10:27:48,910 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-21 10:27:48,923 log Not Found: /favicon.ico
+WARNING 2025-05-21 10:27:48,923 basehttp "GET /favicon.ico HTTP/1.1" 404 4728
+INFO 2025-05-21 10:27:59,488 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-21 10:28:02,559 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2025-05-21 10:28:05,654 views 收到导航请求，起点: B1-003, 目标位置: B1-028
+INFO 2025-05-21 10:28:12,682 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 10:28:12,683 basehttp "GET /navigate/?position=B1-028&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-21 10:28:12,696 basehttp "GET /static/navigation_map.html?_t=1747794492685 HTTP/1.1" 200 158749
+INFO 2025-05-21 11:04:55,777 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-21 11:05:00,002 basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-05-21 11:05:01,232 basehttp "GET /static/element-ui/index.css HTTP/1.1" 304 0
+INFO 2025-05-21 11:05:01,272 basehttp "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-21 11:05:01,272 basehttp "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-21 11:05:01,326 basehttp "GET /static/element-ui/index.js HTTP/1.1" 304 0
+INFO 2025-05-21 11:05:01,330 basehttp "GET /static/js/axios.js HTTP/1.1" 304 0
+INFO 2025-05-21 11:05:08,437 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 11:25:18,633 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 301 0
+INFO 2025-05-21 11:25:34,983 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 11:25:35,179 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 11:25:35,523 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 11:25:42,486 basehttp "GET /api/search-by-plate/?plate=669 HTTP/1.1" 200 116
+INFO 2025-05-21 11:25:43,871 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-309
+INFO 2025-05-21 11:25:43,890 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2025-05-21 11:25:49,955 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 11:25:49,956 basehttp "GET /navigate/?position=B1-309&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 11:25:50,470 basehttp "GET /static/navigation_map.html?_t=1747797950416 HTTP/1.1" 200 156085
+INFO 2025-05-21 11:25:58,272 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 11:26:33,686 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-21 11:26:33,975 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 11:26:57,949 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 11:27:23,692 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 11:27:23,966 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 11:27:29,803 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 11:27:31,476 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-068
+INFO 2025-05-21 11:27:37,746 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 11:27:37,747 basehttp "GET /navigate/?position=B1-068&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 11:27:37,829 basehttp "GET /static/navigation_map.html?_t=1747798057758 HTTP/1.1" 200 160106
+INFO 2025-05-21 11:28:09,678 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 11:28:10,295 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 11:29:02,565 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 11:29:02,903 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 11:29:08,843 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 11:29:11,159 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 11:29:11,364 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 11:29:28,152 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 11:29:30,274 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-068
+INFO 2025-05-21 11:29:36,012 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-068
+INFO 2025-05-21 11:29:36,817 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 11:29:36,819 basehttp "GET /navigate/?position=B1-068&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 11:29:37,273 basehttp "GET /static/navigation_map.html?_t=1747798177072 HTTP/1.1" 200 160106
+INFO 2025-05-21 11:29:42,618 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 11:29:42,619 basehttp "GET /navigate/?position=B1-068&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 11:29:42,868 basehttp "GET /static/navigation_map.html?_t=1747798182811 HTTP/1.1" 200 160106
+INFO 2025-05-21 11:32:54,991 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 11:32:55,218 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 11:33:07,677 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 11:33:11,779 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-068
+INFO 2025-05-21 11:33:17,956 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 11:33:17,957 basehttp "GET /navigate/?position=B1-068&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 11:33:18,054 basehttp "GET /static/navigation_map.html?_t=1747798397954 HTTP/1.1" 200 160106
+INFO 2025-05-21 11:33:40,496 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 11:33:42,072 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 11:33:46,062 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 11:33:46,480 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 12:08:22,503 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 12:08:25,522 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-21 12:08:25,684 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 12:08:31,032 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 12:08:34,917 views 收到导航请求，起点: B1-003, 目标位置: B1-068
+INFO 2025-05-21 12:08:41,668 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 12:08:41,669 basehttp "GET /navigate/?position=B1-068&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-21 12:08:41,687 basehttp "GET /static/navigation_map.html?_t=1747800521671 HTTP/1.1" 200 159323
+INFO 2025-05-21 12:09:41,357 views 收到导航请求，起点: B1-022, 目标位置: B1-068
+INFO 2025-05-21 12:09:47,896 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 12:09:47,898 basehttp "GET /navigate/?position=B1-068&start=B1-022 HTTP/1.1" 200 107
+INFO 2025-05-21 12:09:47,913 basehttp "GET /static/navigation_map.html?_t=1747800587899 HTTP/1.1" 200 157721
+INFO 2025-05-21 12:35:51,310 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 12:35:52,703 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-068
+INFO 2025-05-21 12:35:58,831 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 12:35:58,832 basehttp "GET /navigate/?position=B1-068&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 12:35:58,984 basehttp "GET /static/navigation_map.html?_t=1747802158862 HTTP/1.1" 200 160106
+INFO 2025-05-21 12:36:29,495 views 收到导航请求，起点: B1-02电梯厅, 目标位置: B1-068
+INFO 2025-05-21 12:36:35,626 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 12:36:35,628 basehttp "GET /navigate/?position=B1-068&start=B1-02%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 12:36:35,716 basehttp "GET /static/navigation_map.html?_t=1747802195653 HTTP/1.1" 200 158186
+INFO 2025-05-21 12:36:51,351 views 收到导航请求，起点: B1-03电梯厅, 目标位置: B1-068
+INFO 2025-05-21 12:36:57,433 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 12:36:57,435 basehttp "GET /navigate/?position=B1-068&start=B1-03%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 12:36:57,477 basehttp "GET /static/navigation_map.html?_t=1747802217463 HTTP/1.1" 200 158531
+INFO 2025-05-21 12:37:20,477 views 收到导航请求，起点: B1-04电梯厅, 目标位置: B1-068
+INFO 2025-05-21 12:37:26,581 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 12:37:26,582 basehttp "GET /navigate/?position=B1-068&start=B1-04%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 12:37:27,016 basehttp "GET /static/navigation_map.html?_t=1747802246818 HTTP/1.1" 200 158093
+INFO 2025-05-21 14:04:21,299 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-21 14:04:21,365 log Not Found: /favicon.ico
+WARNING 2025-05-21 14:04:21,366 basehttp "GET /favicon.ico HTTP/1.1" 404 4731
+INFO 2025-05-21 14:04:42,119 basehttp - Broken pipe from ('192.168.1.4', 45320)
+INFO 2025-05-21 14:04:42,119 basehttp - Broken pipe from ('192.168.1.4', 45336)
+WARNING 2025-05-21 14:05:09,485 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-21 14:05:09,619 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-21 14:05:09,728 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-21 14:33:47,065 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 14:33:51,278 basehttp "GET / HTTP/1.1" 200 18502
+WARNING 2025-05-21 14:33:51,393 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-21 14:33:51,414 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-21 14:33:51,466 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-21 14:33:51,501 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-21 14:33:56,937 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 14:34:01,136 views 收到导航请求，起点: B1-002, 目标位置: B1-068
+ERROR 2025-05-21 14:34:08,093 views 生成导航地图失败
+ERROR 2025-05-21 14:34:08,095 log Internal Server Error: /navigate/
+ERROR 2025-05-21 14:34:08,095 basehttp "GET /navigate/?position=B1-068&start=B1-002 HTTP/1.1" 500 79
+INFO 2025-05-21 14:35:21,587 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 14:35:23,645 basehttp "GET / HTTP/1.1" 200 18502
+WARNING 2025-05-21 14:35:23,814 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-21 14:35:23,827 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-21 14:35:24,003 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-21 14:35:24,024 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-21 14:35:27,267 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 14:35:32,903 views 收到导航请求，起点: B1-002, 目标位置: B1-068
+INFO 2025-05-21 14:35:40,111 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 14:35:40,113 basehttp "GET /navigate/?position=B1-068&start=B1-002 HTTP/1.1" 200 107
+INFO 2025-05-21 14:35:40,134 basehttp "GET /static/navigation_map.html?_t=1747809340114 HTTP/1.1" 200 159629
+INFO 2025-05-21 14:36:03,800 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 14:36:04,866 basehttp "GET /static/element-ui/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2025-05-21 14:36:08,972 views 收到导航请求，起点: B1-007, 目标位置: B1-068
+INFO 2025-05-21 14:36:15,256 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 14:36:15,257 basehttp "GET /navigate/?position=B1-068&start=B1-007 HTTP/1.1" 200 107
+INFO 2025-05-21 14:36:15,421 basehttp "GET /static/navigation_map.html?_t=1747809375841 HTTP/1.1" 200 159871
+INFO 2025-05-21 14:36:57,644 basehttp "GET /static/navigation_map.html?_t=1747809417632 HTTP/1.1" 200 159871
+INFO 2025-05-21 14:38:31,469 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 14:38:33,232 basehttp "GET / HTTP/1.1" 200 18502
+WARNING 2025-05-21 14:38:33,360 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-21 14:38:33,383 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-21 14:38:33,458 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-21 14:38:33,609 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-21 14:38:36,956 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 14:38:41,780 views 收到导航请求，起点: B1-003, 目标位置: B1-068
+ERROR 2025-05-21 14:38:48,984 views 生成导航地图失败
+ERROR 2025-05-21 14:38:48,985 log Internal Server Error: /navigate/
+ERROR 2025-05-21 14:38:48,986 basehttp "GET /navigate/?position=B1-068&start=B1-003 HTTP/1.1" 500 79
+INFO 2025-05-21 14:39:03,260 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 14:40:37,805 basehttp "GET / HTTP/1.1" 200 18502
+WARNING 2025-05-21 14:40:38,039 basehttp "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1935
+WARNING 2025-05-21 14:40:38,101 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+INFO 2025-05-21 14:40:38,122 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-21 14:40:38,140 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+INFO 2025-05-21 14:40:43,748 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 14:40:50,691 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-068
+INFO 2025-05-21 14:40:57,974 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 14:40:57,975 basehttp "GET /navigate/?position=B1-068&start=B1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 14:40:57,991 basehttp "GET /static/navigation_map.html?_t=1747809657977 HTTP/1.1" 200 160825
+INFO 2025-05-21 14:41:42,232 views 收到导航请求，起点: B1-02电梯厅, 目标位置: B1-068
+INFO 2025-05-21 14:41:48,806 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 14:41:48,808 basehttp "GET /navigate/?position=B1-068&start=B1-02%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 14:41:48,830 basehttp "GET /static/navigation_map.html?_t=1747809708809 HTTP/1.1" 200 158905
+INFO 2025-05-21 14:42:17,233 views 收到导航请求，起点: B1-03电梯厅, 目标位置: B1-068
+INFO 2025-05-21 14:42:23,805 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 14:42:23,807 basehttp "GET /navigate/?position=B1-068&start=B1-03%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 14:42:23,828 basehttp "GET /static/navigation_map.html?_t=1747809743809 HTTP/1.1" 200 159250
+INFO 2025-05-21 14:43:45,356 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 14:43:45,689 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 14:43:53,828 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 14:43:55,270 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-068
+INFO 2025-05-21 14:44:01,872 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 14:44:01,873 basehttp "GET /navigate/?position=B1-068&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 14:44:02,026 basehttp "GET /static/navigation_map.html?_t=1747809841891 HTTP/1.1" 200 160825
+INFO 2025-05-21 14:51:29,466 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 14:51:35,348 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-21 14:51:35,564 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+WARNING 2025-05-21 14:51:35,590 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-21 14:51:35,594 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-21 14:51:35,646 basehttp "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+WARNING 2025-05-21 14:51:35,650 basehttp "GET /static/js/axios.min.map HTTP/1.1" 404 1908
+WARNING 2025-05-21 14:51:35,655 log Not Found: /favicon.ico
+WARNING 2025-05-21 14:51:35,656 basehttp "GET /favicon.ico HTTP/1.1" 404 4728
+INFO 2025-05-21 14:51:43,970 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-21 14:51:44,539 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 14:51:49,526 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 14:51:56,183 views 收到导航请求，起点: B1-005, 目标位置: B1-068
+INFO 2025-05-21 14:52:02,744 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 14:52:02,746 basehttp "GET /navigate/?position=B1-068&start=B1-005 HTTP/1.1" 200 107
+INFO 2025-05-21 14:52:02,781 basehttp "GET /static/navigation_map.html?_t=1747810323211 HTTP/1.1" 200 160352
+INFO 2025-05-21 14:52:21,178 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-21 14:52:21,766 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 14:52:30,066 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 14:52:41,152 views 收到导航请求，起点: B1-001, 目标位置: B1-068
+INFO 2025-05-21 14:52:47,627 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 14:52:47,629 basehttp "GET /navigate/?position=B1-068&start=B1-001 HTTP/1.1" 200 107
+INFO 2025-05-21 14:52:47,786 basehttp "GET /static/navigation_map.html?_t=1747810368209 HTTP/1.1" 200 160026
+INFO 2025-05-21 14:58:15,300 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 14:58:22,332 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-21 14:58:22,586 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 14:58:27,325 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 14:58:32,062 views 收到导航请求，起点: B1-005, 目标位置: B1-068
+INFO 2025-05-21 14:58:38,803 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 14:58:38,804 basehttp "GET /navigate/?position=B1-068&start=B1-005 HTTP/1.1" 200 107
+INFO 2025-05-21 14:58:38,916 basehttp "GET /static/navigation_map.html?_t=1747810719337 HTTP/1.1" 200 160296
+INFO 2025-05-21 15:04:04,248 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 15:04:11,896 basehttp "GET / HTTP/1.1" 200 18502
+INFO 2025-05-21 15:04:12,093 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 15:04:17,940 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 15:04:24,720 views 收到导航请求，起点: B1-005, 目标位置: B1-068
+INFO 2025-05-21 15:04:31,226 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 15:04:31,227 basehttp "GET /navigate/?position=B1-068&start=B1-005 HTTP/1.1" 200 107
+INFO 2025-05-21 15:04:31,376 basehttp "GET /static/navigation_map.html?_t=1747811071797 HTTP/1.1" 200 162562
+INFO 2025-05-21 15:04:49,822 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 15:04:54,652 views 收到导航请求，起点: B1-003, 目标位置: B1-068
+INFO 2025-05-21 15:05:01,429 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 15:05:01,431 basehttp "GET /navigate/?position=B1-068&start=B1-003 HTTP/1.1" 200 107
+INFO 2025-05-21 15:05:01,448 basehttp "GET /static/navigation_map.html?_t=1747811101432 HTTP/1.1" 200 162330
+INFO 2025-05-21 15:05:39,661 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 15:05:40,824 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 15:05:43,123 basehttp "GET /search/b1-01%E7%94%B5%E6%A2%AF%E5%8E%85/ HTTP/1.1" 200 18516
+INFO 2025-05-21 15:05:44,882 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-21 15:05:50,515 basehttp "GET /api/search-by-plate/?plate=690 HTTP/1.1" 200 116
+INFO 2025-05-21 15:05:51,632 views 收到导航请求，起点: B1-01电梯厅, 目标位置: B1-068
+INFO 2025-05-21 15:05:57,916 views 导航地图生成成功: /home/vchip/parking/viewmap/static/navigation_map.html
+INFO 2025-05-21 15:05:57,917 basehttp "GET /navigate/?position=B1-068&start=b1-01%E7%94%B5%E6%A2%AF%E5%8E%85 HTTP/1.1" 200 124
+INFO 2025-05-21 15:05:58,386 basehttp "GET /static/navigation_map.html?_t=1747811157935 HTTP/1.1" 200 163113
+INFO 2025-05-21 15:07:43,709 basehttp - Broken pipe from ('192.168.1.18', 60166)

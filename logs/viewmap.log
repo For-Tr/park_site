@@ -1,0 +1,127 @@
+2025-05-21 10:27:42,138 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-21 10:28:06,005 - INFO - 找到起点: B1-003 坐标: (116225661.0, 23392699.0)
+2025-05-21 10:28:06,011 - INFO - 找到终点: B1-028 坐标: (116290167.0, 23349865.0)
+2025-05-21 10:28:12,680 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 11:25:43,998 - INFO - 找到起点: B1-01电梯厅 坐标: (116246848.0, 23429016.0)
+2025-05-21 11:25:44,027 - INFO - 找到终点: B1-309 坐标: (116257727.0, 23406127.0)
+2025-05-21 11:25:49,954 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 11:27:31,594 - INFO - 找到起点: B1-01电梯厅 坐标: (116246848.0, 23429016.0)
+2025-05-21 11:27:31,603 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 11:27:37,745 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 11:29:30,393 - INFO - 找到起点: B1-01电梯厅 坐标: (116246848.0, 23429016.0)
+2025-05-21 11:29:30,403 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 11:29:36,156 - INFO - 找到起点: B1-01电梯厅 坐标: (116246848.0, 23429016.0)
+2025-05-21 11:29:36,173 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 11:29:36,815 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 11:29:42,617 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 11:33:11,902 - INFO - 找到起点: B1-01电梯厅 坐标: (116246848.0, 23429016.0)
+2025-05-21 11:33:11,912 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 11:33:17,954 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 12:08:23,904 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-21 12:08:35,143 - INFO - 找到起点: B1-003 坐标: (116225661.0, 23392699.0)
+2025-05-21 12:08:35,154 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 12:08:41,667 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 12:09:41,496 - INFO - 找到起点: B1-022 坐标: (116261399.0, 23349865.0)
+2025-05-21 12:09:41,504 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 12:09:47,895 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 12:35:52,823 - INFO - 找到起点: B1-01电梯厅 坐标: (116246848.0, 23429016.0)
+2025-05-21 12:35:52,834 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 12:35:58,829 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 12:36:29,615 - INFO - 找到起点: B1-02电梯厅 坐标: (116313000.0, 23432000.0)
+2025-05-21 12:36:29,626 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 12:36:35,625 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 12:36:51,471 - INFO - 找到起点: B1-03电梯厅 坐标: (116311000.0, 23380000.0)
+2025-05-21 12:36:51,481 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 12:36:57,432 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 12:37:20,596 - INFO - 找到起点: B1-04电梯厅 坐标: (116248400.0, 23372000.0)
+2025-05-21 12:37:20,607 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 12:37:26,580 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 14:33:48,204 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-21 14:34:01,362 - INFO - 找到起点: B1-002 坐标: (116229368.0, 23392683.0)
+2025-05-21 14:34:01,373 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:34:08,090 - ERROR - 
+❌ 加载或绘制失败：Single '}' encountered in format string
+2025-05-21 14:34:08,091 - ERROR - Traceback (most recent call last):
+  File "/home/vchip/parking/viewmap/relate/viewmap.py", line 793, in load_and_plot_geojson
+    html_content = template_content.format(
+ValueError: Single '}' encountered in format string
+
+2025-05-21 14:34:08,093 - ERROR - 
+❌ 地图生成失败
+2025-05-21 14:35:22,734 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-21 14:35:33,148 - INFO - 找到起点: B1-002 坐标: (116229368.0, 23392683.0)
+2025-05-21 14:35:33,161 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:35:40,109 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 14:36:09,105 - INFO - 找到起点: B1-007 坐标: (116220424.0, 23377630.0)
+2025-05-21 14:36:09,116 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:36:15,255 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 14:38:32,809 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-21 14:38:42,032 - INFO - 找到起点: B1-003 坐标: (116225661.0, 23392699.0)
+2025-05-21 14:38:42,049 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:38:48,981 - ERROR - 
+❌ 加载或绘制失败：' passive'
+2025-05-21 14:38:48,983 - ERROR - Traceback (most recent call last):
+  File "/home/vchip/parking/viewmap/relate/viewmap.py", line 793, in load_and_plot_geojson
+    html_content = template_content.format(
+KeyError: ' passive'
+
+2025-05-21 14:38:48,984 - ERROR - 
+❌ 地图生成失败
+2025-05-21 14:39:04,432 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-21 14:40:50,932 - INFO - 找到起点: B1-01电梯厅 坐标: (116246848.0, 23429016.0)
+2025-05-21 14:40:50,949 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:40:57,972 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 14:41:42,378 - INFO - 找到起点: B1-02电梯厅 坐标: (116313000.0, 23432000.0)
+2025-05-21 14:41:42,391 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:41:48,805 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 14:42:17,378 - INFO - 找到起点: B1-03电梯厅 坐标: (116311000.0, 23380000.0)
+2025-05-21 14:42:17,390 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:42:23,804 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 14:43:55,407 - INFO - 找到起点: B1-01电梯厅 坐标: (116246848.0, 23429016.0)
+2025-05-21 14:43:55,418 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:44:01,870 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 14:51:30,538 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-21 14:51:56,389 - INFO - 找到起点: B1-005 坐标: (116220913.0, 23392746.0)
+2025-05-21 14:51:56,400 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:52:02,743 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 14:52:41,287 - INFO - 找到起点: B1-001 坐标: (116221931.0, 23397974.0)
+2025-05-21 14:52:41,298 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:52:47,626 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 14:58:16,497 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-21 14:58:32,260 - INFO - 找到起点: B1-005 坐标: (116220913.0, 23392746.0)
+2025-05-21 14:58:32,271 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 14:58:38,802 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 15:04:05,401 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-21 15:04:24,920 - INFO - 找到起点: B1-005 坐标: (116220913.0, 23392746.0)
+2025-05-21 15:04:24,930 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 15:04:31,224 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 15:04:54,795 - INFO - 找到起点: B1-003 坐标: (116225661.0, 23392699.0)
+2025-05-21 15:04:54,805 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 15:05:01,428 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html
+2025-05-21 15:05:51,767 - INFO - 找到起点: B1-01电梯厅 坐标: (116246848.0, 23429016.0)
+2025-05-21 15:05:51,777 - INFO - 找到终点: B1-068 坐标: (116322123.0, 23359543.0)
+2025-05-21 15:05:57,915 - INFO - 
+✅ 已生成HTML文件: /home/vchip/parking/viewmap/static/navigation_map.html

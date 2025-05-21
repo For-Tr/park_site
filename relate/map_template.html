@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>多图层GeoJSON查看器</title>
+    <style>
+        html, body {{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: white;
+        }}
+        #container {{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: stretch;
+        }}
+        svg {{
+            width: 100vw;
+            height: 100%;
+            display: block;
+            max-height: none;
+        }}
+        @media (max-width: 600px) {{
+            #container {{
+                height: 100vh;
+            }}
+            svg {{
+                width: 100vw;
+                height: 100%;
+                max-height: none;
+            }}
+        }}
+        .back-button {{
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #4e73df;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: background-color 0.3s;
+            z-index: 2000;
+        }}
+        .back-button:hover {{
+            background-color: #2e59d9;
+        }}
+        .zoom-controls {{
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }}
+        .zoom-controls button {{
+            width: 30px;
+            height: 30px;
+            font-size: 25px;
+            cursor: pointer;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }}
+        .zoom-controls button:hover {{
+            background-color: #f0f0f0;
+        }}
+        path {{
+            vector-effect: non-scaling-stroke;
+            stroke-width: 1px;
+        }}
+        #layer_0 path {{
+            vector-effect: non-scaling-stroke;
+            stroke-width: 5px;
+            stroke: #4612d6;
+        }}
+        .dp3-path {{
+            fill-opacity: 0.5;
+        }}
+        text {{
+            font-family: Arial;
+            fill: #964B00;
+            text-anchor: middle;
+            dominant-baseline: middle;
+            pointer-events: none;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }}
+        .text-container text {{
+            font-size: attr(data-size);
+        }}
+        .nav-point-container text {{
+            font-size: attr(data-size);
+        }}
+        .nav-label-container text {{
+            font-size: attr(data-size);
+        }}
+        .text-container text,
+        .nav-point-container text,
+        .nav-label-container text {{
+            paint-order: stroke;
+            stroke: white;
+            stroke-width: 0.2px;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }}
+        .nav-point {{
+            font-weight: bold;
+            fill: #FF4500;
+        }}
+        .nav-marker {{
+            stroke: #FF4500;
+            stroke-width: 2;
+            fill: none;
+        }}
+        .nav-label {{
+            fill: #FF4500;
+            font-weight: bold;
+            text-anchor: middle;
+            dominant-baseline: middle;
+        }}
+        .marker {{
+            fill-opacity: 0.8;
+            stroke: white;
+            stroke-width: 2px;
+        }}
+        .marker-text {{
+            fill: white;
+            font-size: 12px;
+            text-anchor: middle;
+            dominant-baseline: middle;
+            font-weight: bold;
+        }}
+        .navigation-path {{
+            stroke-width: 5px !important;
+            stroke-dasharray: 10,5;
+            animation: dash 20s linear infinite;
+            pointer-events: none;
+        }}
+        @keyframes dash {{
+            to {{
+                stroke-dashoffset: 1000;
+            }}
+        }}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="zoom-controls">
+            <button onclick="zoomIn()">+</button>
+            <button onclick="zoomOut()">-</button>
+            <button onclick="resetZoom()">R</button>
+        </div>
+        <svg width="{view_width}" height="{view_height}" viewBox="0 0 {view_width} {view_height}" id="svg">
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="strokeWidth">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#FFD700"/>
+                </marker>
+            </defs>
+            <g id="zoomGroup" transform="matrix(1 0 0 1 0 0)">{layers_content}</g>
+        </svg>
+    </div>
+    <script>
+        const svg = document.getElementById('svg');
+        const group = document.getElementById('zoomGroup');
+        let currentScale = 1;
+        let currentTranslateX = 0;
+        let currentTranslateY = 0;
+        let isDragging = false;
+        let startX, startY;
+        
+        function zoomIn() {{
+            currentScale *= 1.2;
+            updateTransform();
+        }}
+        
+        function zoomOut() {{
+            currentScale /= 1.2;
+            updateTransform();
+        }}
+        
+        function resetZoom() {{
+            currentScale = 1;
+            currentTranslateX = 0;
+            currentTranslateY = 0;
+            updateTransform();
+        }}
+        
+        function updateTransform() {{
+            group.setAttribute('transform', 
+                'matrix(' + currentScale + ' 0 0 ' + currentScale + ' ' + currentTranslateX + ' ' + currentTranslateY + ')');
+        }}
+        
+        svg.addEventListener('mousedown', (e) => {{
+            isDragging = true;
+            startX = e.clientX - currentTranslateX;
+            startY = e.clientY - currentTranslateY;
+        }});
+        
+        document.addEventListener('mousemove', (e) => {{
+            if (!isDragging) return;
+            currentTranslateX = e.clientX - startX;
+            currentTranslateY = e.clientY - startY;
+            updateTransform();
+        }});
+        
+        document.addEventListener('mouseup', () => {{
+            isDragging = false;
+        }});
+
+        svg.addEventListener('touchstart', (e) => {{
+            if (e.touches.length === 1) {{
+                isDragging = true;
+                startX = (e.touches[0].clientX - currentTranslateX) ;
+                startY = (e.touches[0].clientY - currentTranslateY) ;
+            }}
+        }});
+        
+        svg.addEventListener('touchmove', (e) => {{
+            if (!isDragging) return;
+            currentTranslateX = e.touches[0].clientX - startX ;
+            currentTranslateY = e.touches[0].clientY - startY ;
+            updateTransform();
+            e.preventDefault(); // 阻止页面滚动
+        }}, {{ passive: false }});
+        
+        svg.addEventListener('touchend', () => {{
+            isDragging = false;
+        }});
+
+        // ====== 双指缩放（多点触摸缩放） ======
+        let lastTouchDist = null;
+        let lastTouchCenter = null;
+        let pinchStartScale = null;
+
+        function getTouchDist(e) {{
+            const dx = e.touches[0].clientX - e.touches[1].clientX;
+            const dy = e.touches[0].clientY - e.touches[1].clientY;
+            return Math.sqrt(dx * dx + dy * dy);
+        }}
+
+        function getTouchCenter(e) {{
+            return {{
+                x: (e.touches[0].clientX + e.touches[1].clientX) / 2,
+                y: (e.touches[0].clientY + e.touches[1].clientY) / 2
+            }};
+        }}
+
+        svg.addEventListener('touchstart', (e) => {{
+            if (e.touches.length === 2) {{
+                lastTouchDist = getTouchDist(e);
+                lastTouchCenter = getTouchCenter(e);
+                pinchStartScale = currentScale;
+            }}
+        }}, {{ passive: false }});
+
+        svg.addEventListener('touchmove', (e) => {{
+            if (e.touches.length === 2) {{
+                e.preventDefault();
+                const newDist = getTouchDist(e);
+                const newCenter = getTouchCenter(e);
+                if (lastTouchDist && pinchStartScale) {{
+                    // 计算缩放比例
+                    const scale = newDist / lastTouchDist;
+                    const newScale = pinchStartScale * scale;
+
+                    // 以两指中点为缩放中心，调整平移
+                    const rect = svg.getBoundingClientRect();
+                    const x = newCenter.x - rect.left;
+                    const y = newCenter.y - rect.top;
+                    const mouseX = (x - currentTranslateX) / currentScale;
+                    const mouseY = (y - currentTranslateY) / currentScale;
+
+                    currentScale = newScale;
+                    currentTranslateX = x - mouseX * currentScale;
+                    currentTranslateY = y - mouseY * currentScale;
+
+                    updateTransform();
+                }}
+            }}
+        }}, {{ passive: false }});
+
+        svg.addEventListener('touchend', (e) => {{
+            if (e.touches.length < 2) {{
+                lastTouchDist = null;
+                lastTouchCenter = null;
+                pinchStartScale = null;
+            }}
+        }});
+
+        svg.addEventListener('wheel', (e) => {{
+            e.preventDefault();
+            const delta = e.deltaY;
+            const rect = svg.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            const mouseX = (x - currentTranslateX) / currentScale;
+            const mouseY = (y - currentTranslateY) / currentScale;
+            
+            if (delta > 0) {{
+                currentScale /= 1.1;
+            }} else {{
+                currentScale *= 1.1;
+            }}
+            
+            currentTranslateX = x - mouseX * currentScale;
+            currentTranslateY = y - mouseY * currentScale;
+            
+            updateTransform();
+        }});
+    </script>
+</body>
+</html> 

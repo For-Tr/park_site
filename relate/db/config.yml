@@ -1,0 +1,29 @@
+mqtt:
+  # MQTT服务器配置
+  server: "120.24.111.243"
+  port: 1883
+  keepalive: 30
+  qos: 1
+  
+  # 主题配置
+  topics:
+    read: "vchippub1"
+    send: "vchipsub1"
+  
+  # 客户端配置
+  client:
+    id_prefix: "mqtt_client"
+    clean_session: True
+  
+  # 消息发送控制
+  message_control:
+    enable_send: False    # 控制是否发送消息
+
+# 日志配置
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+
+# 超时配置
+timeout:
+  node_hours: 1  # 节点超时时间（小时）

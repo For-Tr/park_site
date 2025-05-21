@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>多图层叠加地图</title>
+    <style>
+        /* 全局样式设置 */
+        body { font-family: Arial, sans-serif; background: #f0f0f0; margin: 0; }
+        /* 容器样式：最大宽度和居中显示 */
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        /* 地图区块样式：白色背景、圆角、阴影效果 */
+        .map-block { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 20px; }
+        /* 地图标题样式 */
+        .map-title { font-size: 1.2em; margin-bottom: 10px; }
+        /* 地图容器：设置高度、相对定位和溢出隐藏 */
+        .map-container { width: 100%; height: 800px; position: relative; background: #eaeaea; overflow: hidden; }
+        /* 控制按钮区域：绝对定位在右下角 */
+        .controls { position: absolute; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px; }
+        /* 控制按钮样式设置 */
+        .controls button { width: 40px; height: 40px; font-size: 20px; background: white; border: 1px solid #ccc; border-radius: 4px; cursor: pointer; }
+        /* 按钮悬停效果 */
+        .controls button:hover { background: #f0f0f0; }
+        /* SVG元素定位：居中并设置变换原点和鼠标指针样式 */
+        svg { position: absolute; top: 50%; left: 50%; transform-origin: center center; cursor: move; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>多图层叠加地图（可控）</h1>
+        <div class="map-block">
+            <div class="map-title">所有图层叠加</div>
+            <div class="map-container" id="map-container">
+                {merged_svg}
+            </div>
+            <div class="controls">
+                <button id="zoom-in">+</button>
+                <button id="zoom-out">-</button>
+                <button id="reset">⟳</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        /**
+         * 设置地图交互功能
+         * @param {HTMLElement} svg - SVG元素
+         * @param {HTMLElement} container - 地图容器元素
+         * @param {HTMLElement} zoomInBtn - 放大按钮
+         * @param {HTMLElement} zoomOutBtn - 缩小按钮
+         * @param {HTMLElement} resetBtn - 重置按钮
+         */
+        function setupMapInteraction(svg, container, zoomInBtn, zoomOutBtn, resetBtn) {
+            // 拖动状态标记
+            let isDragging = false;
+            // 拖动起始坐标
+            let startX, startY;
+            // 当前缩放比例
+            let scale = 1;
+            // 当前平移距离
+            let translateX = 0;
+            let translateY = 0;
+            // 获取SVG元素宽高
+            const svgWidth = parseInt(svg.getAttribute('width'));
+            const svgHeight = parseInt(svg.getAttribute('height'));
+            // 初始化位置为中心点
+            translateX = -svgWidth / 2;
+            translateY = -svgHeight / 2;
+            // 应用初始变换
+            updateTransform();
+            // 插入视图初始化参数（如果有）
+            {init_params}
+            
+            // 鼠标按下事件：开始拖动
+            svg.addEventListener('mousedown', function(event) {
+                isDragging = true;
+                // 计算鼠标相对于当前位置的偏移
+                startX = event.clientX - translateX;
+                startY = event.clientY - translateY;
+                // 改变鼠标样式为抓取状态
+                svg.style.cursor = 'grabbing';
+            });
+            
+            // 鼠标移动事件：更新拖动位置
+            document.addEventListener('mousemove', function(event) {
+                if (!isDragging) return;
+                // 计算新的平移位置
+                translateX = event.clientX - startX;
+                translateY = event.clientY - startY;
+                // 应用变换
+                updateTransform();
+            });
+            
+            // 鼠标释放事件：结束拖动
+            document.addEventListener('mouseup', function() {
+                isDragging = false;
+                // 恢复鼠标样式
+                svg.style.cursor = 'move';
+            });
+            
+            // 鼠标滚轮事件：缩放地图
+            container.addEventListener('wheel', function(event) {
+                // 阻止默认滚动行为
+                event.preventDefault();
+                // 获取鼠标在容器中的位置
+                const rect = container.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left;
+                const mouseY = event.clientY - rect.top;
+                // 计算鼠标在SVG坐标系中的位置
+                const svgX = (mouseX - translateX) / scale;
+                const svgY = (mouseY - translateY) / scale;
+                // 根据滚轮方向确定缩放因子
+                const scaleFactor = event.deltaY < 0 ? 1.1 : 0.9;
+                // 应用缩放
+                scale *= scaleFactor;
+                // 限制缩放范围
+                scale = Math.max(0.1, Math.min(scale, 30));
+                // 更新平移位置，保持鼠标所指位置不变
+                translateX = mouseX - svgX * scale;
+                translateY = mouseY - svgY * scale;
+                // 应用变换
+                updateTransform();
+            });
+            
+            // 放大按钮点击事件
+            zoomInBtn.addEventListener('click', function() { changeScale(1.2); });
+            // 缩小按钮点击事件
+            zoomOutBtn.addEventListener('click', function() { changeScale(0.8); });
+            // 重置按钮点击事件
+            resetBtn.addEventListener('click', function() { 
+                // 恢复初始缩放比例
+                scale = 1;
+                // 恢复中心位置
+                translateX = -svgWidth / 2;
+                translateY = -svgHeight / 2;
+                // 应用变换
+                updateTransform();
+                // 应用初始参数（如果有）
+                {init_params}
+            });
+            
+            /**
+             * 改变缩放比例
+             * @param {number} factor - 缩放因子
+             */
+            function changeScale(factor) {
+                // 获取容器尺寸
+                const rect = container.getBoundingClientRect();
+                // 计算容器中心点
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                // 计算中心点对应的SVG坐标
+                const svgCenterX = (centerX - translateX) / scale;
+                const svgCenterY = (centerY - translateY) / scale;
+                // 应用缩放
+                scale *= factor;
+                // 限制缩放范围
+                scale = Math.max(0.1, Math.min(scale, 30));
+                // 更新平移位置，保持中心点不变
+                translateX = centerX - svgCenterX * scale;
+                translateY = centerY - svgCenterY * scale;
+                // 应用变换
+                updateTransform();
+            }
+            
+            /**
+             * 更新SVG元素的变换属性
+             */
+            function updateTransform() {
+                // 应用CSS变换：平移+缩放
+                svg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+            }
+        }
+        
+        // 页面加载完成后初始化地图交互
+        document.addEventListener('DOMContentLoaded', function() {
+            setupMapInteraction(
+                document.querySelector('#map-container svg'), // SVG元素
+                document.getElementById('map-container'),     // 容器元素
+                document.getElementById('zoom-in'),           // 放大按钮
+                document.getElementById('zoom-out'),          // 缩小按钮
+                document.getElementById('reset')              // 重置按钮
+            );
+        });
+    </script>
+</body>
+</html>

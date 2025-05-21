@@ -1,0 +1,40 @@
+let isDragging = false;
+let lastX, lastY;
+
+svg.addEventListener('mousedown', (e) => {{
+  isDragging = true;
+  startX = e.clientX- currentTranslateX;
+  startY = e.clientY- currentTranslateY;
+});
+
+svg.addEventListener('mousemove', (e) => {{
+  if (!isDragging) return;
+  currentTranslateX = e.clientX - startX;
+  currentTranslateY = e.clientY - startY;
+  updateTransform();
+}});
+
+svg.addEventListener('mouseup', () => {{
+  isDragging = false;
+}});
+
+svg.addEventListener('touchstart', (e) => {{
+    if (e.touches.length === 1) {{
+      isDragging = true;
+      startX = e.touches[0].clientX- currentTranslateX;
+      startY = e.touches[0].clientY- currentTranslateY;
+    }}
+  }});
+  
+svg.addEventListener('touchmove', (e) => {{
+    if (!isDragging) return;
+    currentTranslateX = e.touches[0].clientX - startX;
+    currentTranslateY = e.touches[0].clientY - startY;
+    updateTransform();
+    e.preventDefault(); // 阻止页面滚动
+  }, { passive: false });
+  
+svg.addEventListener('touchend', () => {{
+    isDragging = false;
+  }});
+
