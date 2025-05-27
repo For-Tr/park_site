@@ -754,7 +754,10 @@ def load_and_plot_geojson(layer_configs: List[LayerConfig], simplify_tolerance=0
             # 添加路径
             for path in layer['paths']:
                 fill_attr = f'fill="{layer["color"]}" fill-rule="{path.get("fill-rule", "nonzero")}" class="dp3-path"' if path.get("fill", False) else 'fill="none"'
-                layers_content += f'<path d="{path["d"]}" stroke="{layer["color"]}" {fill_attr}/>'
+                dash = ''
+                if path.get('class') == 'navigation-path':
+                    dash = 'stroke-dasharray="12,8"'
+                layers_content += f'<path d="{path["d"]}" stroke="{layer["color"]}" {fill_attr} {dash}/>'
                 
             # 添加文本
             for text in layer['texts']:
@@ -825,8 +828,8 @@ def load_and_plot_geojson(layer_configs: List[LayerConfig], simplify_tolerance=0
         )
 
         # 不再写入文件，直接返回 SVG/HTML 字符串
-        with open(output_html, 'w', encoding='utf-8') as f:
-            f.write(html_content)
+        # with open(output_html, 'w', encoding='utf-8') as f:
+        #     f.write(html_content)
         logger.info(f"\n✅ 已生成导航SVG内容")
         return html_content
         

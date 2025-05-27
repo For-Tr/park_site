@@ -361,3 +361,30 @@ KeyError: '\n            paint-order'
 2025-05-27 16:36:28,576 - INFO - 
 ✅ 已生成导航SVG内容
 2025-05-27 16:37:10,635 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-27 16:58:44,387 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-27 16:58:57,724 - INFO - 找到起点: B1-001 坐标: (116221931.0, 23397974.0)
+2025-05-27 16:58:57,726 - INFO - 找到终点: B1-028 坐标: (116290167.0, 23349865.0)
+2025-05-27 16:59:00,640 - INFO - 
+✅ 已生成导航SVG内容
+2025-05-27 17:00:02,933 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-27 17:00:13,678 - INFO - 找到起点: B1-001 坐标: (116221931.0, 23397974.0)
+2025-05-27 17:00:13,681 - INFO - 找到终点: B1-028 坐标: (116290167.0, 23349865.0)
+2025-05-27 17:00:16,863 - ERROR - 
+❌ 加载或绘制失败：name 'extra_svg' is not defined
+2025-05-27 17:00:16,869 - ERROR - Traceback (most recent call last):
+  File "/home/vchip/parking/viewmap/relate/viewmap.py", line 758, in load_and_plot_geojson
+    layers_content += f'<path d="{path["d"]}" stroke="{layer["color"]}" {extra_svg}/>'
+                                                                         ^^^^^^^^^
+NameError: name 'extra_svg' is not defined
+
+2025-05-27 17:03:09,589 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-27 17:03:31,735 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-27 17:03:43,625 - INFO - 找到起点: B1-001 坐标: (116221931.0, 23397974.0)
+2025-05-27 17:03:43,629 - INFO - 找到终点: B1-028 坐标: (116290167.0, 23349865.0)
+2025-05-27 17:03:46,733 - INFO - 
+✅ 已生成导航SVG内容
+2025-05-27 17:05:04,288 - INFO - 日志文件路径: /home/vchip/parking/viewmap/logs/viewmap.log
+2025-05-27 17:07:37,559 - INFO - 找到起点: B1-001 坐标: (116221931.0, 23397974.0)
+2025-05-27 17:07:37,562 - INFO - 找到终点: B1-028 坐标: (116290167.0, 23349865.0)
+2025-05-27 17:07:40,838 - INFO - 
+✅ 已生成导航SVG内容

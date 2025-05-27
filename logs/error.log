@@ -12,3 +12,6 @@ ERROR 2025-05-27 11:23:26,637 log Internal Server Error: /navigate/
 ERROR 2025-05-27 11:23:26,638 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 500 79
 ERROR 2025-05-27 11:49:40,665 views 未提供起点位置
 ERROR 2025-05-27 11:51:41,903 views 未提供起点位置
+ERROR 2025-05-27 17:00:16,871 views 生成导航地图失败
+ERROR 2025-05-27 17:00:16,872 log Internal Server Error: /navigate/
+ERROR 2025-05-27 17:00:16,872 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 500 79

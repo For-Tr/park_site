@@ -2021,3 +2021,37 @@ INFO 2025-05-27 16:36:28,577 views 导航SVG内容生成成功
 INFO 2025-05-27 16:36:28,579 basehttp "GET /navigate/?position=B1-028&start=B1-002 HTTP/1.1" 200 162114
 INFO 2025-05-27 16:37:08,131 autoreload /home/vchip/parking/viewmap/relate/viewmap.py changed, reloading.
 INFO 2025-05-27 16:37:09,649 autoreload Watching for file changes with StatReloader
+INFO 2025-05-27 16:58:43,385 autoreload Watching for file changes with StatReloader
+INFO 2025-05-27 16:58:46,816 basehttp "GET / HTTP/1.1" 200 25316
+INFO 2025-05-27 16:58:46,912 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-27 16:58:53,316 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-27 16:58:57,588 views 收到导航请求，起点: B1-001, 目标位置: B1-028
+INFO 2025-05-27 16:59:00,640 views 导航SVG内容生成成功
+INFO 2025-05-27 16:59:00,643 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 200 157424
+INFO 2025-05-27 17:00:00,417 autoreload /home/vchip/parking/viewmap/relate/viewmap.py changed, reloading.
+INFO 2025-05-27 17:00:01,911 autoreload Watching for file changes with StatReloader
+INFO 2025-05-27 17:00:05,260 basehttp "GET / HTTP/1.1" 200 25316
+INFO 2025-05-27 17:00:05,412 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-27 17:00:09,151 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-27 17:00:13,543 views 收到导航请求，起点: B1-001, 目标位置: B1-028
+ERROR 2025-05-27 17:00:16,871 views 生成导航地图失败
+ERROR 2025-05-27 17:00:16,872 log Internal Server Error: /navigate/
+ERROR 2025-05-27 17:00:16,872 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 500 79
+INFO 2025-05-27 17:03:06,967 autoreload /home/vchip/parking/viewmap/relate/viewmap.py changed, reloading.
+INFO 2025-05-27 17:03:08,618 autoreload Watching for file changes with StatReloader
+INFO 2025-05-27 17:03:29,181 autoreload /home/vchip/parking/viewmap/relate/viewmap.py changed, reloading.
+INFO 2025-05-27 17:03:30,637 autoreload Watching for file changes with StatReloader
+INFO 2025-05-27 17:03:33,310 basehttp "GET / HTTP/1.1" 200 25316
+INFO 2025-05-27 17:03:33,510 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-27 17:03:38,911 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-27 17:03:43,470 views 收到导航请求，起点: B1-001, 目标位置: B1-028
+INFO 2025-05-27 17:03:46,733 views 导航SVG内容生成成功
+INFO 2025-05-27 17:03:46,735 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 200 162256
+INFO 2025-05-27 17:05:01,807 autoreload /home/vchip/parking/viewmap/relate/viewmap.py changed, reloading.
+INFO 2025-05-27 17:05:03,296 autoreload Watching for file changes with StatReloader
+INFO 2025-05-27 17:07:28,205 basehttp "GET / HTTP/1.1" 200 25319
+INFO 2025-05-27 17:07:28,390 basehttp "GET /api/location-options/ HTTP/1.1" 200 6073
+INFO 2025-05-27 17:07:33,095 basehttp "GET /api/search-by-plate/?plate=%E7%B2%A4B1 HTTP/1.1" 200 395
+INFO 2025-05-27 17:07:37,422 views 收到导航请求，起点: B1-001, 目标位置: B1-028
+INFO 2025-05-27 17:07:40,839 views 导航SVG内容生成成功
+INFO 2025-05-27 17:07:40,841 basehttp "GET /navigate/?position=B1-028&start=B1-001 HTTP/1.1" 200 162256
