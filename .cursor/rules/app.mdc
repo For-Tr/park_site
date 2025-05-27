@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# App Directory Guide
+
+The [`app/`](mdc:app) directory is the main Django application containing core business logic:
+
+- [`models.py`](mdc:app/models.py): Defines the database models.
+- [`views.py`](mdc:app/views.py): Contains view functions and classes for handling HTTP requests.
+- [`admin.py`](mdc:app/admin.py): Registers models for the Django admin interface.
+- [`urls.py`](mdc:app/urls.py): URL routing for the app.
+- [`tests.py`](mdc:app/tests.py): Test cases for the app.
+- [`db_routers.py`](mdc:app/db_routers.py): Custom database routing logic.
+- [`base.py`](mdc:app/base.py): Base classes or utilities (see file for details).
+- [`migrations/`](mdc:app/migrations): Database migration files.
+
+Use this guide to understand the responsibilities and entry points of the Django app.

@@ -522,7 +522,19 @@ def load_and_plot_geojson(layer_configs: List[LayerConfig], simplify_tolerance=0
                         path_line = LineString(path_nodes)
                         if not dp3_polygon.contains(path_line):
                             path_line = path_line.intersection(dp3_polygon)
-                        
+
+                        # 假设 path_line 已经是 LineString，start_point 是 Point
+                        coords = list(path_line.coords)
+
+                        # 检查 start_point 是否已经是第一个点（避免重复添加）
+                        if (start_point.x, start_point.y) != coords[0]:
+                            coords.insert(0, (start_point.x, start_point.y))
+                        if (end_point.x, end_point.y) != coords[-1]:
+                            coords.append((end_point.x, end_point.y))
+
+                        # 重新生成 LineString
+                        path_line = LineString(coords)
+
                         # 平滑路径
                         navigation_path = smooth_path_line(path_line, dp3_polygon)
                         # logger.info("路径平滑完成")
@@ -545,7 +557,7 @@ def load_and_plot_geojson(layer_configs: List[LayerConfig], simplify_tolerance=0
                             'd': nav_path,
                             'fill': False,
                             'class': 'navigation-path',
-                            'extra_svg': 'stroke-dasharray="12,8" marker-end="url(#arrowhead)"'
+                            'extra_svg': 'stroke-dasharray="12,8"'
                         })
                         
                         all_layers.append(nav_layer)
@@ -742,8 +754,7 @@ def load_and_plot_geojson(layer_configs: List[LayerConfig], simplify_tolerance=0
             # 添加路径
             for path in layer['paths']:
                 fill_attr = f'fill="{layer["color"]}" fill-rule="{path.get("fill-rule", "nonzero")}" class="dp3-path"' if path.get("fill", False) else 'fill="none"'
-                extra_svg = path.get('extra_svg', '')
-                layers_content += f'<path d="{path["d"]}" stroke="{layer["color"]}" {fill_attr} {extra_svg}/>'
+                layers_content += f'<path d="{path["d"]}" stroke="{layer["color"]}" {fill_attr}/>'
                 
             # 添加文本
             for text in layer['texts']:
@@ -761,11 +772,25 @@ def load_and_plot_geojson(layer_configs: List[LayerConfig], simplify_tolerance=0
                 if nav_coords and len(nav_coords) > 1:
                     start_coord = nav_coords[0]
                     end_coord = nav_coords[-1]
-                    start_x = (start_coord[0] - min_x) * nav_scale
-                    start_y = (max_y - start_coord[1]) * nav_scale
-                    end_x = (end_coord[0] - min_x) * nav_scale
-                    end_y = (max_y - end_coord[1]) * nav_scale
-                    layers_content += f'<g class="nav-label-container" transform-origin="center"><text x="{start_x}" y="{start_y}" class="nav-label" style="font-size: 26px">起点</text></g><g class="nav-label-container" transform-origin="center"><text x="{end_x}" y="{end_y}" class="nav-label" style="font-size: 26px">终点</text></g>'
+                    # 圆心直接用start_point和end_point的坐标
+                    start_x = (start_point.x - min_x) * nav_scale
+                    start_y = (max_y - start_point.y) * nav_scale
+                    end_x = (end_point.x - min_x) * nav_scale
+                    end_y = (max_y - end_point.y) * nav_scale
+                    # 起点图标（白底，绿色细描边，黑色大字，字符居中）
+                    layers_content += f'''
+                    <g class="nav-label-container" transform-origin="center">
+                        <circle cx="{start_x}" cy="{start_y}" r="22" fill="#fff" stroke="#43c463" stroke-width="10"/>
+                        <text x="{start_x}" y="{start_y}" text-anchor="middle" font-size="30" font-weight="bold" fill="#111" dominant-baseline="middle">起</text>
+                    </g>
+                    '''
+                    # 终点图标（白底，蓝色细描边，黑色大字，字符居中）
+                    layers_content += f'''
+                    <g class="nav-label-container" transform-origin="center">
+                        <circle cx="{end_x}" cy="{end_y}" r="22" fill="#fff" stroke="#1e90ff" stroke-width="10"/>
+                        <text x="{end_x}" y="{end_y}" text-anchor="middle" font-size="30" font-weight="bold" fill="#111" dominant-baseline="middle">终</text>
+                    </g>
+                    '''
             
             layers_content += '</g>'
 
@@ -799,18 +824,11 @@ def load_and_plot_geojson(layer_configs: List[LayerConfig], simplify_tolerance=0
             navigation_layers_controls=navigation_layers_controls
         )
 
-        # 保存HTML文件
+        # 不再写入文件，直接返回 SVG/HTML 字符串
         with open(output_html, 'w', encoding='utf-8') as f:
             f.write(html_content)
-            
-        logger.info(f"\n✅ 已生成HTML文件: {output_html}")
-        # logger.info("提示：请使用浏览器打开map.html查看结果")
-        # logger.info("- 使用鼠标滚轮或右上角的按钮进行缩放")
-        # logger.info("- 按住鼠标左键拖动图形")
-        # logger.info("- 点击'R'按钮重置视图")
-        # logger.info("- 使用左侧面板控制图层显示")
-        
-        return True
+        logger.info(f"\n✅ 已生成导航SVG内容")
+        return html_content
         
     except Exception as e:
         logger.error(f"\n❌ 加载或绘制失败：{str(e)}")
@@ -857,13 +875,7 @@ def viewmap_main(position=None, start_point="B1-001", layer_configs: Optional[Li
         navigation_points=navigation_points
     )
     
-    if result:
-        # logger.info("\n✅ 地图生成成功")
-        # logger.info(f"- 已保存到: {output_path}")
-        return True
-    else:
-        logger.error("\n❌ 地图生成失败")
-        return False
+    return result  # result 就是 SVG 字符串（或 False）
 
 # 示例用法
 if __name__ == "__main__":

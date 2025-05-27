@@ -235,23 +235,13 @@ def navigate_to_position(request):
         )
         
         if map_html:
-            # 检查生成的文件是否存在
-            map_file = os.path.join(settings.BASE_DIR, 'static', 'navigation_map.html')
-            if os.path.exists(map_file):
-                logger.info(f"导航地图生成成功: {map_file}")
-                # 返回成功响应，包含地图URL
-                return JsonResponse({
-                    'success': True,
-                    'map_url': '/static/navigation_map.html',
-                    'start_point': start,
-                    'end_point': position
-                })
-            else:
-                logger.error(f"导航地图文件未生成: {map_file}")
-                return JsonResponse({
-                    'success': False,
-                    'error': '导航地图文件未生成'
-                }, status=500)
+            logger.info("导航SVG内容生成成功")
+            return JsonResponse({
+                'success': True,
+                'svg': map_html,
+                'start_point': start,
+                'end_point': position
+            })
         else:
             logger.error("生成导航地图失败")
             return JsonResponse({
