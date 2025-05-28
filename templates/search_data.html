@@ -335,8 +335,9 @@
         computed: {
             filteredLocationOptions() {
                 if (!this.filterText) return this.locationOptions;
+                const input = this.filterText.toUpperCase();
                 return this.locationOptions.filter(item =>
-                    item.toUpperCase().includes(this.filterText.toUpperCase())
+                    item.toUpperCase().includes(input)
                 );
             }
         },
@@ -425,17 +426,18 @@
                     this.startNavigation();
             },
             startNavigation() {
-                // 显示加载提示
-                this.$message({
-                    message: '正在生成导航路线...',
-                    type: 'info'
+                // 显示加载提示（旋转圆圈）
+                const loadingInstance = this.$loading({
+                    lock: true,
+                    text: '正在生成导航路线...',
+                    spinner: 'el-icon-loading',
+                    background: 'rgba(255, 255, 255, 0.5)'
                 });
-                
                 // 发送导航请求，保持原始大小写
                 axios.get(`/navigate/?position=${encodeURIComponent(this.currentPosition)}&start=${encodeURIComponent(this.startPoint)}`)
                     .then(response => {
+                        loadingInstance.close(); // 关闭 loading
                         if (response.data.success) {
-                            // 在弹窗中显示导航地图（直接显示SVG字符串）
                             this.svgContent = response.data.svg; // 假设后端返回svg字段
                             this.mapDialogVisible = true;
                             this.startPoint = '';
@@ -449,6 +451,7 @@
                         }
                     })
                     .catch(error => {
+                        loadingInstance.close(); // 关闭 loading
                         console.error('导航请求出错:', error);
                         this.$message.error('导航请求失败');
                         // 只清空起点，保留终点
