@@ -102,6 +102,15 @@ def search_by_plate(request):
         return JsonResponse({'code': 200, 'data': results})
     except Exception as e:
         return JsonResponse({'code': 500, 'message': str(e)})
+    
+def search_by_position(request):
+    try:
+        position = request.GET.get('position', '')
+        reader = DBReader()
+        results = reader.search_by_position_description(position)
+        return JsonResponse({'code': 200, 'data': results})
+    except Exception as e:
+        return JsonResponse({'code': 500, 'message': str(e)})
 
 def device_status(request):
     reader = DBReader()

@@ -444,13 +444,11 @@ class DBReader:
         支持使用?作为单字符通配符
         例如: '1n?1' 可以匹配 '粤B1NK10' 等
         """
-        # 将?和？转换为SQL的单字符通配符_
-        sql_pattern = partial_plate.replace('?', '_').replace('？', '_')
-        # 在模式前后添加%以匹配任意位置
-        sql_pattern = f"%{sql_pattern}%"
-        
         with self.get_session() as session:
-            # 使用LIKE进行模糊查询，支持通配符
+            # 新的模糊匹配：顺序包含但不要求连续
+            # 例如 110 -> %1%1%0%
+            pattern = '%'.join(list(partial_plate.replace('?', '_').replace('？', '_')))
+            sql_pattern = f"%{pattern}%"
             results = (
                 session.query(CarSpaceStatus.license_plate, CarSpace.position_description, CarSpaceStatus.position)
                 .join(CarSpace, CarSpace.id == CarSpaceStatus.car_space_id)
@@ -470,6 +468,38 @@ class DBReader:
                 }
                 for license_plate, position_description, position in results
             ]
+
+    def search_by_position_description(self, partial_description: str):
+        """通过部分 position_description 查询，返回相关信息"""
+        with self.get_session() as session:
+            # 修改查询以包含所有需要的字段
+            pattern = partial_description.replace('?', '_').replace('？', '_')
+            # pattern = '%'.join(list(partial_description.replace('?', '_').replace('？', '_')))
+            sql_pattern = f"%{pattern}%"
+            results = (
+                session.query(
+                    CarSpace.position_description, 
+                    CarSpaceStatus.license_plate,
+                    CarSpaceStatus.position  # 添加 position 字段
+                )
+                .join(CarSpaceStatus, CarSpaceStatus.car_space_id == CarSpace.id)
+                .filter(CarSpace.position_description.ilike(sql_pattern))
+                .all()
+            )
+
+            # 添加打印语句
+            print(f"查询结果: {results}")
+            
+            # 修改返回值的结构以匹配查询结果
+            return [
+                {
+                    'license_plate': license_plate if license_plate else None,
+                    'position_description': position_description,
+                    'position': position if position else None
+                }
+                for position_description, license_plate, position in results
+            ]
+        
 
 def main():
     reader = DBReader()

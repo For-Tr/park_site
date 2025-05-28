@@ -783,15 +783,15 @@ def load_and_plot_geojson(layer_configs: List[LayerConfig], simplify_tolerance=0
                     # 起点图标（白底，绿色细描边，黑色大字，字符居中）
                     layers_content += f'''
                     <g class="nav-label-container" transform-origin="center">
-                        <circle cx="{start_x}" cy="{start_y}" r="22" fill="#fff" stroke="#43c463" stroke-width="10"/>
-                        <text x="{start_x}" y="{start_y}" text-anchor="middle" font-size="30" font-weight="bold" fill="#111" dominant-baseline="middle">起</text>
+                        <circle cx="{start_x}" cy="{start_y}" r="{text_size}" fill="#fff" stroke="#43c463" stroke-width="10"/>
+                        <text x="{start_x}" y="{start_y}" text-anchor="middle" font-size="{text_size*1.5}" font-weight="bold" fill="#111" dominant-baseline="middle">起</text>
                     </g>
                     '''
                     # 终点图标（白底，蓝色细描边，黑色大字，字符居中）
                     layers_content += f'''
                     <g class="nav-label-container" transform-origin="center">
-                        <circle cx="{end_x}" cy="{end_y}" r="22" fill="#fff" stroke="#1e90ff" stroke-width="10"/>
-                        <text x="{end_x}" y="{end_y}" text-anchor="middle" font-size="30" font-weight="bold" fill="#111" dominant-baseline="middle">终</text>
+                        <circle cx="{end_x}" cy="{end_y}" r="{text_size}" fill="#fff" stroke="#1e90ff" stroke-width="10"/>
+                        <text x="{end_x}" y="{end_y}" text-anchor="middle" font-size="{text_size*1.5}" font-weight="bold" fill="#111" dominant-baseline="middle">终</text>
                     </g>
                     '''
             

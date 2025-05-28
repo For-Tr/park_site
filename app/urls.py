@@ -12,6 +12,7 @@ urlpatterns = [
     path('search/', views.search_data_view, name='search_data'),
     path('search/<str:start_point>/', views.search_data_view, name='search_data_with_start'),
     path('api/search-by-plate/', views.search_by_plate, name='search-by-plate'),
+    path('api/search-by-position/', views.search_by_position, name='search-by-position'),
     path('home/', views.index1_view, name='index1'),
     # 导航相关路由
     path('navigate/', views.navigate_to_position, name='navigate'),

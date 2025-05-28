@@ -27,7 +27,7 @@
         }
 
         .search-input {
-            border-radius: 20px;
+            border-radius: 999px !important;
             padding: 0.5rem 1.5rem;
         }
 
@@ -171,21 +171,28 @@
         <!-- 页面头部 -->
         <div class="dashboard-header">
             <div class="container">
-                <h1 class="text-center mb-4">查询车辆位置</h1>
+                <h1 class="text-center mb-4">按查询方式导航</h1>
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-6">
-                        <div class="input-group">
+                        <div class="d-flex justify-content-center" style="margin-bottom: 1.5rem;">
                             <input type="text" 
-                                   class="form-control" 
-                                   placeholder="输入车牌号" 
-                                   v-model="plateSearch"
+                                   class="form-control search-input" 
+                                   placeholder="输入车牌号或车位号" 
+                                   v-model="searchInput"
                                    @input="handleInput"
                                    @keyup.enter="searchByPlate"
                                    style="text-transform: uppercase;">
+                        </div>
+                        <div class="d-flex justify-content-center" style="gap: 10px; margin-bottom: 1rem;">
                             <button type="button" 
                                     class="btn btn-success" 
                                     @click="searchByPlate">
-                                搜索
+                                按车牌搜索导航
+                            </button>
+                            <button type="button" 
+                                    class="btn btn-primary" 
+                                    @click="searchByPosition">
+                                按车位搜索导航
                             </button>
                         </div>
                     </div>
@@ -311,7 +318,7 @@
         el: '#app',
         delimiters: ['[[', ']]'],
         data: {
-            plateSearch: '',
+            searchInput: '',
             plateResults: [],
             startPoint: "{{ start_point|default:'' }}",
             dialogVisible: false,
@@ -366,35 +373,39 @@
             },
             handleInput(event) {
                 // 将输入值转换为大写
-                this.plateSearch = event.target.value.toUpperCase();
+                this.searchInput = event.target.value.toUpperCase();
             },
             searchByPlate() {
-                console.log('开始搜索:', this.plateSearch);  // 添加调试日志
-                
-                // 先去除所有空格
-                const searchText = this.plateSearch.replace(/\s+/g, '');
-                // 再计算不包含问号的实际字符长度
+                const searchText = this.searchInput.replace(/\s+/g, '');
                 const actualLength = searchText.replace(/[?？]/g, '').length;
-                
-                console.log('处理后的搜索文本:', searchText);  // 添加调试日志
-                console.log('实际字符长度:', actualLength);    // 添加调试日志
-                
                 if (!searchText || actualLength < 3) {
-                    console.log('搜索文本太短');  // 添加调试日志
                     this.plateResults = [];
                     return;
                 }
-                
                 axios.get(`/api/search-by-plate/?plate=${searchText}`)
                     .then(response => {
-                        console.log('API响应:', response.data);  // 添加调试日志
                         if (response.data.code === 200) {
                             this.plateResults = response.data.data;
-                            console.log('搜索结果:', this.plateResults);  // 添加调试日志
                         }
                     })
                     .catch(error => {
-                        console.error('搜索出错:', error);
+                        this.plateResults = [];
+                    });
+            },
+            searchByPosition() {
+                const searchText = this.searchInput.replace(/\s+/g, '');
+                const actualLength = searchText.replace(/[?？]/g, '').length;
+                if (!searchText || actualLength < 3) {
+                    this.plateResults = [];
+                    return;
+                }
+                axios.get(`/api/search-by-position/?position=${searchText}`)
+                    .then(response => {
+                        if (response.data.code === 200) {
+                            this.plateResults = response.data.data;
+                        }
+                    })
+                    .catch(error => {
                         this.plateResults = [];
                     });
             },
