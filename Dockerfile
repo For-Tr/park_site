@@ -21,6 +21,7 @@ RUN pip install --upgrade pip && \
 
 # 复制应用代码到工作目录
 COPY . /www/
+RUN python3 manage.py collectstatic --noinput
 
 # 创建日志目录并设置权限
 RUN mkdir -p /var/log/supervisor && \
