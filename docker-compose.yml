@@ -1,4 +1,4 @@
-name: f228
+version: '3'
 services:
   web:
     image: webslim0405:latest  # 使用已构建的镜像
@@ -25,24 +25,25 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
       - DJANGO_SETTINGS_MODULE=backend_try.settings
-    nginx:
-      image: nginx:alpine
-      container_name: viewmap-nginx
-      ports:
-        - "80:80"
-      volumes:
-        - ./nginx.conf:/etc/nginx/nginx.conf:ro
-        - ./static:/www/static
-        - ./media:/www/media
-        - ./templates:/www/templates
-      depends_on:
-        - web
-      restart: always
     command: >
       bash -c "chmod +x /www/run_mqtt.sh &&
                /usr/bin/supervisord -n -c /etc/supervisor/conf.d/parking.conf"
     restart: unless-stopped  # 添加自动重启策略
 
+  nginx:
+    image: nginx:alpine
+    container_name: viewmap-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./static:/www/static
+      - ./media:/www/media
+      - ./templates:/www/templates
+    depends_on:
+      - web
+    restart: always
+
 volumes:
   supervisor_logs:
-    driver: local 
+    driver: local
